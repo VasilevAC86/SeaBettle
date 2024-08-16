@@ -10,7 +10,10 @@
             model.PlayerShips[5, 1] = CoordStatus.Ship;
             model.PlayerShips[5, 2] = CoordStatus.Ship;
             model.PlayerShips[5, 3] = CoordStatus.Ship;
-            /*model.PlayerShips[5, 4] = CoordStatus.Ship;*/
+            model.PlayerShips[5, 4] = CoordStatus.Ship;
+            model.PlayerShips[1,6] = CoordStatus.Ship;
+            model.PlayerShips[2,6] = CoordStatus.Ship;
+            model.PlayerShips[3,6] = CoordStatus.Ship;
         }
         Model model;
         private void button1_Click(object sender, EventArgs e)
