@@ -169,5 +169,73 @@ namespace SeaBettle
             string result = x.ToString() + y.ToString();
             return result;
         }
+        public bool CheckCoord(string xy, TypeShips type, Direction direction = Direction.Vertical) // Проверка возможности размещения корабля
+        {
+            bool result = true;
+
+            return result;
+        }
+        // Метод установки корабля на поле вручную/удаления корабля вручную
+        // xy - координаты корабля, type - тип корабля, direction - направление размещения корабля, deleting - добавление или удаление корабля
+        // В случае успешной операции возвращает true
+        public bool AddDelShip(string xy, TypeShips type, Direction direction=Direction.Vertical, bool deleting=false) 
+        {            
+            bool result = true;
+            if (deleting || CheckCoord(xy, type, direction))
+            {
+                int x = int.Parse(xy.Substring(0, 1));
+                int y = int.Parse(xy.Substring(1, 1));
+                CoordStatus status = new CoordStatus(); // Статус клетки
+                if (deleting)
+                    status = CoordStatus.None;
+                else status = CoordStatus.Ship;
+                PlayerShips[x, y] = status;
+                if (direction == Direction.Vertical)
+                {
+                    switch (type)
+                    {
+                        case TypeShips.x2:
+                            PlayerShips[x, y + 1] = status;
+                            break;
+                        case TypeShips.x3:
+                            PlayerShips[x, y + 1] = status;
+                            PlayerShips[x, y + 2] = status;
+                            break;
+                        case TypeShips.x4:
+                            PlayerShips[x, y + 1] = status;
+                            PlayerShips[x, y + 2] = status;
+                            PlayerShips[x, y + 3] = status;
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (type)
+                    {
+                        case TypeShips.x2:
+                            PlayerShips[x + 1, y] = status;
+                            break;
+                        case TypeShips.x3:
+                            PlayerShips[x + 1, y] = status;
+                            PlayerShips[x + 2, y] = status;
+                            break;
+                        case TypeShips.x4:
+                            PlayerShips[x + 1, y] = status;
+                            PlayerShips[x + 2, y] = status;
+                            PlayerShips[x + 3, y] = status;
+                            break;
+                    }
+                }
+            }
+            else
+                result = false;
+            return result;
+        }
+        public void DelShips()
+        {
+            for (int i = 0; i < 10; i++)
+                for (int j = 0; j < 10; j++)
+                    PlayerShips[i, j] = CoordStatus.None;
+        }
     }
 }
