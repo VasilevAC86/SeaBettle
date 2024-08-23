@@ -28,110 +28,120 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             button1 = new Button();
             textBox1 = new TextBox();
             button2 = new Button();
-            b00 = new Button();
+            А1 = new Button();
             panel1 = new Panel();
-            b99 = new Button();
-            b98 = new Button();
-            b89 = new Button();
-            b97 = new Button();
-            b79 = new Button();
-            b88 = new Button();
-            b69 = new Button();
-            b59 = new Button();
-            b96 = new Button();
-            b49 = new Button();
-            b78 = new Button();
-            b39 = new Button();
-            b87 = new Button();
-            b29 = new Button();
-            b68 = new Button();
-            b19 = new Button();
-            b58 = new Button();
-            b09 = new Button();
-            b95 = new Button();
-            b48 = new Button();
-            b77 = new Button();
-            b38 = new Button();
-            b86 = new Button();
-            b28 = new Button();
-            b67 = new Button();
-            b18 = new Button();
-            b94 = new Button();
-            b08 = new Button();
-            b57 = new Button();
-            b76 = new Button();
-            b47 = new Button();
-            b37 = new Button();
-            b85 = new Button();
-            b27 = new Button();
-            b66 = new Button();
-            b17 = new Button();
-            b93 = new Button();
-            b07 = new Button();
-            b56 = new Button();
-            b75 = new Button();
-            b46 = new Button();
-            b36 = new Button();
-            b84 = new Button();
-            b26 = new Button();
-            b65 = new Button();
-            b16 = new Button();
-            b92 = new Button();
-            b06 = new Button();
-            b55 = new Button();
-            b74 = new Button();
-            b45 = new Button();
-            b35 = new Button();
-            b83 = new Button();
-            b25 = new Button();
-            b64 = new Button();
-            b15 = new Button();
-            b91 = new Button();
-            b05 = new Button();
-            b54 = new Button();
-            b73 = new Button();
-            b44 = new Button();
-            b34 = new Button();
-            b82 = new Button();
-            b24 = new Button();
-            b63 = new Button();
-            b14 = new Button();
-            b81 = new Button();
-            b04 = new Button();
-            b53 = new Button();
-            b72 = new Button();
-            b43 = new Button();
-            b62 = new Button();
-            b33 = new Button();
-            b23 = new Button();
-            b71 = new Button();
-            b13 = new Button();
-            b52 = new Button();
-            b03 = new Button();
-            b61 = new Button();
-            b42 = new Button();
-            b51 = new Button();
-            b32 = new Button();
-            b41 = new Button();
-            b22 = new Button();
-            b31 = new Button();
-            b12 = new Button();
-            b21 = new Button();
-            b02 = new Button();
-            b11 = new Button();
-            b01 = new Button();
-            b90 = new Button();
-            b80 = new Button();
-            b70 = new Button();
-            b60 = new Button();
-            b50 = new Button();
-            b40 = new Button();
-            b30 = new Button();
-            b20 = new Button();
-            b10 = new Button();
+            К10 = new Button();
+            К9 = new Button();
+            И10 = new Button();
+            К8 = new Button();
+            З10 = new Button();
+            И9 = new Button();
+            Ж10 = new Button();
+            Е10 = new Button();
+            К7 = new Button();
+            Д10 = new Button();
+            З9 = new Button();
+            Г10 = new Button();
+            И8 = new Button();
+            В10 = new Button();
+            Ж9 = new Button();
+            Б10 = new Button();
+            Е9 = new Button();
+            А10 = new Button();
+            К6 = new Button();
+            Д9 = new Button();
+            З8 = new Button();
+            Г9 = new Button();
+            И7 = new Button();
+            В9 = new Button();
+            Ж8 = new Button();
+            Б9 = new Button();
+            К5 = new Button();
+            А9 = new Button();
+            Е8 = new Button();
+            З7 = new Button();
+            Д8 = new Button();
+            Г8 = new Button();
+            И6 = new Button();
+            В8 = new Button();
+            Ж7 = new Button();
+            Б8 = new Button();
+            К4 = new Button();
+            А8 = new Button();
+            Е7 = new Button();
+            З6 = new Button();
+            Д7 = new Button();
+            Г7 = new Button();
+            И5 = new Button();
+            В7 = new Button();
+            Ж6 = new Button();
+            Б7 = new Button();
+            К3 = new Button();
+            А7 = new Button();
+            Е6 = new Button();
+            З5 = new Button();
+            Д6 = new Button();
+            Г6 = new Button();
+            И4 = new Button();
+            В6 = new Button();
+            Ж5 = new Button();
+            Б6 = new Button();
+            К2 = new Button();
+            А6 = new Button();
+            Е5 = new Button();
+            З4 = new Button();
+            Д5 = new Button();
+            Г5 = new Button();
+            И3 = new Button();
+            В5 = new Button();
+            Ж4 = new Button();
+            Б5 = new Button();
+            И2 = new Button();
+            А5 = new Button();
+            Е4 = new Button();
+            З3 = new Button();
+            Д4 = new Button();
+            Ж3 = new Button();
+            Г4 = new Button();
+            В4 = new Button();
+            З2 = new Button();
+            Б4 = new Button();
+            Е3 = new Button();
+            А4 = new Button();
+            Ж2 = new Button();
+            Д3 = new Button();
+            Е2 = new Button();
+            Г3 = new Button();
+            Д2 = new Button();
+            В3 = new Button();
+            Г2 = new Button();
+            Б3 = new Button();
+            В2 = new Button();
+            А3 = new Button();
+            Б2 = new Button();
+            А2 = new Button();
+            К1 = new Button();
+            И1 = new Button();
+            З1 = new Button();
+            Ж1 = new Button();
+            Е1 = new Button();
+            Д1 = new Button();
+            Г1 = new Button();
+            В1 = new Button();
+            Б1 = new Button();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
             radioButton1 = new RadioButton();
@@ -140,7 +150,39 @@
             radioButton4 = new RadioButton();
             button103 = new Button();
             button104 = new Button();
+            dataGridView1 = new DataGridView();
+            А = new DataGridViewTextBoxColumn();
+            Б = new DataGridViewTextBoxColumn();
+            В = new DataGridViewTextBoxColumn();
+            Г = new DataGridViewTextBoxColumn();
+            Д = new DataGridViewTextBoxColumn();
+            Е = new DataGridViewTextBoxColumn();
+            Ж = new DataGridViewTextBoxColumn();
+            З = new DataGridViewTextBoxColumn();
+            И = new DataGridViewTextBoxColumn();
+            К = new DataGridViewTextBoxColumn();
+            lblА = new Label();
+            lblБ = new Label();
+            lblВ = new Label();
+            lblГ = new Label();
+            lblД = new Label();
+            lblЕ = new Label();
+            lblЖ = new Label();
+            lblЗ = new Label();
+            lblИ = new Label();
+            lblК = new Label();
+            lbl1 = new Label();
+            lbl2 = new Label();
+            lbl3 = new Label();
+            lbl4 = new Label();
+            lbl5 = new Label();
+            lbl6 = new Label();
+            lbl7 = new Label();
+            lbl8 = new Label();
+            lbl9 = new Label();
+            lbl10 = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -170,1103 +212,1203 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // b00
+            // А1
             // 
-            b00.Location = new Point(0, -1);
-            b00.Name = "b00";
-            b00.Size = new Size(23, 23);
-            b00.TabIndex = 3;
-            b00.Tag = "00";
-            b00.UseVisualStyleBackColor = true;
+            А1.Location = new Point(0, -1);
+            А1.Name = "А1";
+            А1.Size = new Size(23, 23);
+            А1.TabIndex = 3;
+            А1.Tag = "00";
+            А1.UseVisualStyleBackColor = true;
+            А1.Click += Cell_Click;
             // 
             // panel1
             // 
-            panel1.Controls.Add(b99);
-            panel1.Controls.Add(b98);
-            panel1.Controls.Add(b89);
-            panel1.Controls.Add(b97);
-            panel1.Controls.Add(b79);
-            panel1.Controls.Add(b88);
-            panel1.Controls.Add(b69);
-            panel1.Controls.Add(b59);
-            panel1.Controls.Add(b96);
-            panel1.Controls.Add(b49);
-            panel1.Controls.Add(b78);
-            panel1.Controls.Add(b39);
-            panel1.Controls.Add(b87);
-            panel1.Controls.Add(b29);
-            panel1.Controls.Add(b68);
-            panel1.Controls.Add(b19);
-            panel1.Controls.Add(b58);
-            panel1.Controls.Add(b09);
-            panel1.Controls.Add(b95);
-            panel1.Controls.Add(b48);
-            panel1.Controls.Add(b77);
-            panel1.Controls.Add(b38);
-            panel1.Controls.Add(b86);
-            panel1.Controls.Add(b28);
-            panel1.Controls.Add(b67);
-            panel1.Controls.Add(b18);
-            panel1.Controls.Add(b94);
-            panel1.Controls.Add(b08);
-            panel1.Controls.Add(b57);
-            panel1.Controls.Add(b76);
-            panel1.Controls.Add(b47);
-            panel1.Controls.Add(b37);
-            panel1.Controls.Add(b85);
-            panel1.Controls.Add(b27);
-            panel1.Controls.Add(b66);
-            panel1.Controls.Add(b17);
-            panel1.Controls.Add(b93);
-            panel1.Controls.Add(b07);
-            panel1.Controls.Add(b56);
-            panel1.Controls.Add(b75);
-            panel1.Controls.Add(b46);
-            panel1.Controls.Add(b36);
-            panel1.Controls.Add(b84);
-            panel1.Controls.Add(b26);
-            panel1.Controls.Add(b65);
-            panel1.Controls.Add(b16);
-            panel1.Controls.Add(b92);
-            panel1.Controls.Add(b06);
-            panel1.Controls.Add(b55);
-            panel1.Controls.Add(b74);
-            panel1.Controls.Add(b45);
-            panel1.Controls.Add(b35);
-            panel1.Controls.Add(b83);
-            panel1.Controls.Add(b25);
-            panel1.Controls.Add(b64);
-            panel1.Controls.Add(b15);
-            panel1.Controls.Add(b91);
-            panel1.Controls.Add(b05);
-            panel1.Controls.Add(b54);
-            panel1.Controls.Add(b73);
-            panel1.Controls.Add(b44);
-            panel1.Controls.Add(b34);
-            panel1.Controls.Add(b82);
-            panel1.Controls.Add(b24);
-            panel1.Controls.Add(b63);
-            panel1.Controls.Add(b14);
-            panel1.Controls.Add(b81);
-            panel1.Controls.Add(b04);
-            panel1.Controls.Add(b53);
-            panel1.Controls.Add(b72);
-            panel1.Controls.Add(b43);
-            panel1.Controls.Add(b62);
-            panel1.Controls.Add(b33);
-            panel1.Controls.Add(b23);
-            panel1.Controls.Add(b71);
-            panel1.Controls.Add(b13);
-            panel1.Controls.Add(b52);
-            panel1.Controls.Add(b03);
-            panel1.Controls.Add(b61);
-            panel1.Controls.Add(b42);
-            panel1.Controls.Add(b51);
-            panel1.Controls.Add(b32);
-            panel1.Controls.Add(b41);
-            panel1.Controls.Add(b22);
-            panel1.Controls.Add(b31);
-            panel1.Controls.Add(b12);
-            panel1.Controls.Add(b21);
-            panel1.Controls.Add(b02);
-            panel1.Controls.Add(b11);
-            panel1.Controls.Add(b01);
-            panel1.Controls.Add(b90);
-            panel1.Controls.Add(b80);
-            panel1.Controls.Add(b70);
-            panel1.Controls.Add(b60);
-            panel1.Controls.Add(b50);
-            panel1.Controls.Add(b40);
-            panel1.Controls.Add(b30);
-            panel1.Controls.Add(b20);
-            panel1.Controls.Add(b10);
-            panel1.Controls.Add(b00);
-            panel1.Location = new Point(32, 61);
+            panel1.Controls.Add(К10);
+            panel1.Controls.Add(К9);
+            panel1.Controls.Add(И10);
+            panel1.Controls.Add(К8);
+            panel1.Controls.Add(З10);
+            panel1.Controls.Add(И9);
+            panel1.Controls.Add(Ж10);
+            panel1.Controls.Add(Е10);
+            panel1.Controls.Add(К7);
+            panel1.Controls.Add(Д10);
+            panel1.Controls.Add(З9);
+            panel1.Controls.Add(Г10);
+            panel1.Controls.Add(И8);
+            panel1.Controls.Add(В10);
+            panel1.Controls.Add(Ж9);
+            panel1.Controls.Add(Б10);
+            panel1.Controls.Add(Е9);
+            panel1.Controls.Add(А10);
+            panel1.Controls.Add(К6);
+            panel1.Controls.Add(Д9);
+            panel1.Controls.Add(З8);
+            panel1.Controls.Add(Г9);
+            panel1.Controls.Add(И7);
+            panel1.Controls.Add(В9);
+            panel1.Controls.Add(Ж8);
+            panel1.Controls.Add(Б9);
+            panel1.Controls.Add(К5);
+            panel1.Controls.Add(А9);
+            panel1.Controls.Add(Е8);
+            panel1.Controls.Add(З7);
+            panel1.Controls.Add(Д8);
+            panel1.Controls.Add(Г8);
+            panel1.Controls.Add(И6);
+            panel1.Controls.Add(В8);
+            panel1.Controls.Add(Ж7);
+            panel1.Controls.Add(Б8);
+            panel1.Controls.Add(К4);
+            panel1.Controls.Add(А8);
+            panel1.Controls.Add(Е7);
+            panel1.Controls.Add(З6);
+            panel1.Controls.Add(Д7);
+            panel1.Controls.Add(Г7);
+            panel1.Controls.Add(И5);
+            panel1.Controls.Add(В7);
+            panel1.Controls.Add(Ж6);
+            panel1.Controls.Add(Б7);
+            panel1.Controls.Add(К3);
+            panel1.Controls.Add(А7);
+            panel1.Controls.Add(Е6);
+            panel1.Controls.Add(З5);
+            panel1.Controls.Add(Д6);
+            panel1.Controls.Add(Г6);
+            panel1.Controls.Add(И4);
+            panel1.Controls.Add(В6);
+            panel1.Controls.Add(Ж5);
+            panel1.Controls.Add(Б6);
+            panel1.Controls.Add(К2);
+            panel1.Controls.Add(А6);
+            panel1.Controls.Add(Е5);
+            panel1.Controls.Add(З4);
+            panel1.Controls.Add(Д5);
+            panel1.Controls.Add(Г5);
+            panel1.Controls.Add(И3);
+            panel1.Controls.Add(В5);
+            panel1.Controls.Add(Ж4);
+            panel1.Controls.Add(Б5);
+            panel1.Controls.Add(И2);
+            panel1.Controls.Add(А5);
+            panel1.Controls.Add(Е4);
+            panel1.Controls.Add(З3);
+            panel1.Controls.Add(Д4);
+            panel1.Controls.Add(Ж3);
+            panel1.Controls.Add(Г4);
+            panel1.Controls.Add(В4);
+            panel1.Controls.Add(З2);
+            panel1.Controls.Add(Б4);
+            panel1.Controls.Add(Е3);
+            panel1.Controls.Add(А4);
+            panel1.Controls.Add(Ж2);
+            panel1.Controls.Add(Д3);
+            panel1.Controls.Add(Е2);
+            panel1.Controls.Add(Г3);
+            panel1.Controls.Add(Д2);
+            panel1.Controls.Add(В3);
+            panel1.Controls.Add(Г2);
+            panel1.Controls.Add(Б3);
+            panel1.Controls.Add(В2);
+            panel1.Controls.Add(А3);
+            panel1.Controls.Add(Б2);
+            panel1.Controls.Add(А2);
+            panel1.Controls.Add(К1);
+            panel1.Controls.Add(И1);
+            panel1.Controls.Add(З1);
+            panel1.Controls.Add(Ж1);
+            panel1.Controls.Add(Е1);
+            panel1.Controls.Add(Д1);
+            panel1.Controls.Add(Г1);
+            panel1.Controls.Add(В1);
+            panel1.Controls.Add(Б1);
+            panel1.Controls.Add(А1);
+            panel1.Location = new Point(50, 85);
             panel1.Name = "panel1";
             panel1.Size = new Size(255, 254);
             panel1.TabIndex = 4;
             // 
-            // b99
-            // 
-            b99.Location = new Point(229, 226);
-            b99.Margin = new Padding(1);
-            b99.Name = "b99";
-            b99.Size = new Size(23, 23);
-            b99.TabIndex = 32;
-            b99.Tag = "99";
-            b99.UseVisualStyleBackColor = true;
-            // 
-            // b98
-            // 
-            b98.Location = new Point(229, 201);
-            b98.Margin = new Padding(1);
-            b98.Name = "b98";
-            b98.Size = new Size(23, 23);
-            b98.TabIndex = 32;
-            b98.Tag = "98";
-            b98.UseVisualStyleBackColor = true;
-            // 
-            // b89
-            // 
-            b89.Location = new Point(204, 226);
-            b89.Margin = new Padding(1);
-            b89.Name = "b89";
-            b89.Size = new Size(23, 23);
-            b89.TabIndex = 31;
-            b89.Tag = "89";
-            b89.UseVisualStyleBackColor = true;
-            // 
-            // b97
-            // 
-            b97.Location = new Point(229, 176);
-            b97.Margin = new Padding(1);
-            b97.Name = "b97";
-            b97.Size = new Size(23, 23);
-            b97.TabIndex = 32;
-            b97.Tag = "97";
-            b97.UseVisualStyleBackColor = true;
-            // 
-            // b79
-            // 
-            b79.Location = new Point(179, 226);
-            b79.Margin = new Padding(1);
-            b79.Name = "b79";
-            b79.Size = new Size(23, 23);
-            b79.TabIndex = 30;
-            b79.Tag = "79";
-            b79.UseVisualStyleBackColor = true;
-            // 
-            // b88
-            // 
-            b88.Location = new Point(204, 201);
-            b88.Margin = new Padding(1);
-            b88.Name = "b88";
-            b88.Size = new Size(23, 23);
-            b88.TabIndex = 31;
-            b88.Tag = "88";
-            b88.UseVisualStyleBackColor = true;
-            // 
-            // b69
-            // 
-            b69.Location = new Point(154, 226);
-            b69.Margin = new Padding(1);
-            b69.Name = "b69";
-            b69.Size = new Size(23, 23);
-            b69.TabIndex = 29;
-            b69.Tag = "69";
-            b69.UseVisualStyleBackColor = true;
-            // 
-            // b59
-            // 
-            b59.Location = new Point(129, 225);
-            b59.Margin = new Padding(1);
-            b59.Name = "b59";
-            b59.Size = new Size(23, 23);
-            b59.TabIndex = 28;
-            b59.Tag = "59";
-            b59.UseVisualStyleBackColor = true;
-            // 
-            // b96
-            // 
-            b96.Location = new Point(229, 151);
-            b96.Margin = new Padding(1);
-            b96.Name = "b96";
-            b96.Size = new Size(23, 23);
-            b96.TabIndex = 32;
-            b96.Tag = "96";
-            b96.UseVisualStyleBackColor = true;
-            // 
-            // b49
-            // 
-            b49.Location = new Point(104, 226);
-            b49.Margin = new Padding(1);
-            b49.Name = "b49";
-            b49.Size = new Size(23, 23);
-            b49.TabIndex = 27;
-            b49.Tag = "49";
-            b49.UseVisualStyleBackColor = true;
-            // 
-            // b78
-            // 
-            b78.Location = new Point(179, 201);
-            b78.Margin = new Padding(1);
-            b78.Name = "b78";
-            b78.Size = new Size(23, 23);
-            b78.TabIndex = 30;
-            b78.Tag = "78";
-            b78.UseVisualStyleBackColor = true;
-            // 
-            // b39
-            // 
-            b39.Location = new Point(79, 226);
-            b39.Margin = new Padding(1);
-            b39.Name = "b39";
-            b39.Size = new Size(23, 23);
-            b39.TabIndex = 26;
-            b39.Tag = "39";
-            b39.UseVisualStyleBackColor = true;
-            // 
-            // b87
-            // 
-            b87.Location = new Point(204, 176);
-            b87.Margin = new Padding(1);
-            b87.Name = "b87";
-            b87.Size = new Size(23, 23);
-            b87.TabIndex = 31;
-            b87.Tag = "87";
-            b87.UseVisualStyleBackColor = true;
-            // 
-            // b29
-            // 
-            b29.Location = new Point(54, 225);
-            b29.Margin = new Padding(1);
-            b29.Name = "b29";
-            b29.Size = new Size(23, 23);
-            b29.TabIndex = 25;
-            b29.Tag = "29";
-            b29.UseVisualStyleBackColor = true;
-            // 
-            // b68
-            // 
-            b68.Location = new Point(154, 201);
-            b68.Margin = new Padding(1);
-            b68.Name = "b68";
-            b68.Size = new Size(23, 23);
-            b68.TabIndex = 29;
-            b68.Tag = "68";
-            b68.UseVisualStyleBackColor = true;
-            // 
-            // b19
-            // 
-            b19.Location = new Point(27, 224);
-            b19.Margin = new Padding(1);
-            b19.Name = "b19";
-            b19.Size = new Size(23, 23);
-            b19.TabIndex = 24;
-            b19.Tag = "19";
-            b19.UseVisualStyleBackColor = true;
-            // 
-            // b58
-            // 
-            b58.Location = new Point(129, 200);
-            b58.Margin = new Padding(1);
-            b58.Name = "b58";
-            b58.Size = new Size(23, 23);
-            b58.TabIndex = 28;
-            b58.Tag = "58";
-            b58.UseVisualStyleBackColor = true;
-            // 
-            // b09
-            // 
-            b09.Location = new Point(0, 224);
-            b09.Name = "b09";
-            b09.Size = new Size(23, 23);
-            b09.TabIndex = 23;
-            b09.Tag = "09";
-            b09.UseVisualStyleBackColor = true;
-            // 
-            // b95
-            // 
-            b95.Location = new Point(229, 126);
-            b95.Margin = new Padding(1);
-            b95.Name = "b95";
-            b95.Size = new Size(23, 23);
-            b95.TabIndex = 22;
-            b95.Tag = "95";
-            b95.UseVisualStyleBackColor = true;
-            // 
-            // b48
-            // 
-            b48.Location = new Point(104, 201);
-            b48.Margin = new Padding(1);
-            b48.Name = "b48";
-            b48.Size = new Size(23, 23);
-            b48.TabIndex = 27;
-            b48.Tag = "48";
-            b48.UseVisualStyleBackColor = true;
-            // 
-            // b77
-            // 
-            b77.Location = new Point(179, 176);
-            b77.Margin = new Padding(1);
-            b77.Name = "b77";
-            b77.Size = new Size(23, 23);
-            b77.TabIndex = 30;
-            b77.Tag = "77";
-            b77.UseVisualStyleBackColor = true;
-            // 
-            // b38
-            // 
-            b38.Location = new Point(79, 201);
-            b38.Margin = new Padding(1);
-            b38.Name = "b38";
-            b38.Size = new Size(23, 23);
-            b38.TabIndex = 26;
-            b38.Tag = "38";
-            b38.UseVisualStyleBackColor = true;
-            // 
-            // b86
-            // 
-            b86.Location = new Point(204, 151);
-            b86.Margin = new Padding(1);
-            b86.Name = "b86";
-            b86.Size = new Size(23, 23);
-            b86.TabIndex = 31;
-            b86.Tag = "86";
-            b86.UseVisualStyleBackColor = true;
-            // 
-            // b28
-            // 
-            b28.Location = new Point(54, 200);
-            b28.Margin = new Padding(1);
-            b28.Name = "b28";
-            b28.Size = new Size(23, 23);
-            b28.TabIndex = 25;
-            b28.Tag = "28";
-            b28.UseVisualStyleBackColor = true;
-            // 
-            // b67
-            // 
-            b67.Location = new Point(154, 176);
-            b67.Margin = new Padding(1);
-            b67.Name = "b67";
-            b67.Size = new Size(23, 23);
-            b67.TabIndex = 29;
-            b67.Tag = "67";
-            b67.UseVisualStyleBackColor = true;
-            // 
-            // b18
-            // 
-            b18.Location = new Point(27, 199);
-            b18.Margin = new Padding(1);
-            b18.Name = "b18";
-            b18.Size = new Size(23, 23);
-            b18.TabIndex = 24;
-            b18.Tag = "18";
-            b18.UseVisualStyleBackColor = true;
-            // 
-            // b94
-            // 
-            b94.Location = new Point(229, 101);
-            b94.Margin = new Padding(1);
-            b94.Name = "b94";
-            b94.Size = new Size(23, 23);
-            b94.TabIndex = 22;
-            b94.Tag = "94";
-            b94.UseVisualStyleBackColor = true;
-            // 
-            // b08
-            // 
-            b08.Location = new Point(0, 199);
-            b08.Name = "b08";
-            b08.Size = new Size(23, 23);
-            b08.TabIndex = 23;
-            b08.Tag = "08";
-            b08.UseVisualStyleBackColor = true;
-            // 
-            // b57
-            // 
-            b57.Location = new Point(129, 175);
-            b57.Margin = new Padding(1);
-            b57.Name = "b57";
-            b57.Size = new Size(23, 23);
-            b57.TabIndex = 28;
-            b57.Tag = "57";
-            b57.UseVisualStyleBackColor = true;
-            // 
-            // b76
-            // 
-            b76.Location = new Point(179, 151);
-            b76.Margin = new Padding(1);
-            b76.Name = "b76";
-            b76.Size = new Size(23, 23);
-            b76.TabIndex = 30;
-            b76.Tag = "76";
-            b76.UseVisualStyleBackColor = true;
-            // 
-            // b47
-            // 
-            b47.Location = new Point(104, 176);
-            b47.Margin = new Padding(1);
-            b47.Name = "b47";
-            b47.Size = new Size(23, 23);
-            b47.TabIndex = 27;
-            b47.Tag = "47";
-            b47.UseVisualStyleBackColor = true;
-            // 
-            // b37
-            // 
-            b37.Location = new Point(79, 176);
-            b37.Margin = new Padding(1);
-            b37.Name = "b37";
-            b37.Size = new Size(23, 23);
-            b37.TabIndex = 26;
-            b37.Tag = "37";
-            b37.UseVisualStyleBackColor = true;
-            // 
-            // b85
-            // 
-            b85.Location = new Point(204, 126);
-            b85.Margin = new Padding(1);
-            b85.Name = "b85";
-            b85.Size = new Size(23, 23);
-            b85.TabIndex = 21;
-            b85.Tag = "85";
-            b85.UseVisualStyleBackColor = true;
-            // 
-            // b27
-            // 
-            b27.Location = new Point(54, 175);
-            b27.Margin = new Padding(1);
-            b27.Name = "b27";
-            b27.Size = new Size(23, 23);
-            b27.TabIndex = 25;
-            b27.Tag = "27";
-            b27.UseVisualStyleBackColor = true;
-            // 
-            // b66
-            // 
-            b66.Location = new Point(154, 151);
-            b66.Margin = new Padding(1);
-            b66.Name = "b66";
-            b66.Size = new Size(23, 23);
-            b66.TabIndex = 29;
-            b66.Tag = "66";
-            b66.UseVisualStyleBackColor = true;
-            // 
-            // b17
-            // 
-            b17.Location = new Point(27, 174);
-            b17.Margin = new Padding(1);
-            b17.Name = "b17";
-            b17.Size = new Size(23, 23);
-            b17.TabIndex = 24;
-            b17.Tag = "17";
-            b17.UseVisualStyleBackColor = true;
-            // 
-            // b93
-            // 
-            b93.Location = new Point(229, 76);
-            b93.Margin = new Padding(1);
-            b93.Name = "b93";
-            b93.Size = new Size(23, 23);
-            b93.TabIndex = 22;
-            b93.Tag = "93";
-            b93.UseVisualStyleBackColor = true;
-            // 
-            // b07
-            // 
-            b07.Location = new Point(0, 174);
-            b07.Name = "b07";
-            b07.Size = new Size(23, 23);
-            b07.TabIndex = 23;
-            b07.Tag = "07";
-            b07.UseVisualStyleBackColor = true;
-            // 
-            // b56
-            // 
-            b56.Location = new Point(129, 150);
-            b56.Margin = new Padding(1);
-            b56.Name = "b56";
-            b56.Size = new Size(23, 23);
-            b56.TabIndex = 28;
-            b56.Tag = "56";
-            b56.UseVisualStyleBackColor = true;
-            // 
-            // b75
-            // 
-            b75.Location = new Point(179, 126);
-            b75.Margin = new Padding(1);
-            b75.Name = "b75";
-            b75.Size = new Size(23, 23);
-            b75.TabIndex = 20;
-            b75.Tag = "75";
-            b75.UseVisualStyleBackColor = true;
-            // 
-            // b46
-            // 
-            b46.Location = new Point(104, 151);
-            b46.Margin = new Padding(1);
-            b46.Name = "b46";
-            b46.Size = new Size(23, 23);
-            b46.TabIndex = 27;
-            b46.Tag = "46";
-            b46.UseVisualStyleBackColor = true;
-            // 
-            // b36
-            // 
-            b36.Location = new Point(79, 151);
-            b36.Margin = new Padding(1);
-            b36.Name = "b36";
-            b36.Size = new Size(23, 23);
-            b36.TabIndex = 26;
-            b36.Tag = "36";
-            b36.UseVisualStyleBackColor = true;
-            // 
-            // b84
-            // 
-            b84.Location = new Point(204, 101);
-            b84.Margin = new Padding(1);
-            b84.Name = "b84";
-            b84.Size = new Size(23, 23);
-            b84.TabIndex = 21;
-            b84.Tag = "84";
-            b84.UseVisualStyleBackColor = true;
-            // 
-            // b26
-            // 
-            b26.Location = new Point(54, 150);
-            b26.Margin = new Padding(1);
-            b26.Name = "b26";
-            b26.Size = new Size(23, 23);
-            b26.TabIndex = 25;
-            b26.Tag = "26";
-            b26.UseVisualStyleBackColor = true;
-            // 
-            // b65
-            // 
-            b65.Location = new Point(154, 126);
-            b65.Margin = new Padding(1);
-            b65.Name = "b65";
-            b65.Size = new Size(23, 23);
-            b65.TabIndex = 19;
-            b65.Tag = "65";
-            b65.UseVisualStyleBackColor = true;
-            // 
-            // b16
-            // 
-            b16.Location = new Point(27, 149);
-            b16.Margin = new Padding(1);
-            b16.Name = "b16";
-            b16.Size = new Size(23, 23);
-            b16.TabIndex = 24;
-            b16.Tag = "16";
-            b16.UseVisualStyleBackColor = true;
-            // 
-            // b92
-            // 
-            b92.Location = new Point(229, 51);
-            b92.Margin = new Padding(1);
-            b92.Name = "b92";
-            b92.Size = new Size(23, 23);
-            b92.TabIndex = 22;
-            b92.Tag = "92";
-            b92.UseVisualStyleBackColor = true;
-            // 
-            // b06
-            // 
-            b06.Location = new Point(0, 149);
-            b06.Name = "b06";
-            b06.RightToLeft = RightToLeft.No;
-            b06.Size = new Size(23, 23);
-            b06.TabIndex = 23;
-            b06.Tag = "06";
-            b06.UseVisualStyleBackColor = true;
-            // 
-            // b55
-            // 
-            b55.Location = new Point(129, 125);
-            b55.Margin = new Padding(1);
-            b55.Name = "b55";
-            b55.Size = new Size(23, 23);
-            b55.TabIndex = 18;
-            b55.Tag = "55";
-            b55.UseVisualStyleBackColor = true;
-            // 
-            // b74
-            // 
-            b74.Location = new Point(179, 101);
-            b74.Margin = new Padding(1);
-            b74.Name = "b74";
-            b74.Size = new Size(23, 23);
-            b74.TabIndex = 20;
-            b74.Tag = "74";
-            b74.UseVisualStyleBackColor = true;
-            // 
-            // b45
-            // 
-            b45.Location = new Point(104, 126);
-            b45.Margin = new Padding(1);
-            b45.Name = "b45";
-            b45.Size = new Size(23, 23);
-            b45.TabIndex = 17;
-            b45.Tag = "45";
-            b45.UseVisualStyleBackColor = true;
-            // 
-            // b35
-            // 
-            b35.Location = new Point(79, 126);
-            b35.Margin = new Padding(1);
-            b35.Name = "b35";
-            b35.Size = new Size(23, 23);
-            b35.TabIndex = 16;
-            b35.Tag = "35";
-            b35.UseVisualStyleBackColor = true;
-            // 
-            // b83
-            // 
-            b83.Location = new Point(204, 76);
-            b83.Margin = new Padding(1);
-            b83.Name = "b83";
-            b83.Size = new Size(23, 23);
-            b83.TabIndex = 21;
-            b83.Tag = "83";
-            b83.UseVisualStyleBackColor = true;
-            // 
-            // b25
-            // 
-            b25.Location = new Point(54, 125);
-            b25.Margin = new Padding(1);
-            b25.Name = "b25";
-            b25.Size = new Size(23, 23);
-            b25.TabIndex = 15;
-            b25.Tag = "25";
-            b25.UseVisualStyleBackColor = true;
-            // 
-            // b64
-            // 
-            b64.Location = new Point(154, 101);
-            b64.Margin = new Padding(1);
-            b64.Name = "b64";
-            b64.Size = new Size(23, 23);
-            b64.TabIndex = 19;
-            b64.Tag = "64";
-            b64.UseVisualStyleBackColor = true;
-            // 
-            // b15
-            // 
-            b15.Location = new Point(27, 124);
-            b15.Margin = new Padding(1);
-            b15.Name = "b15";
-            b15.Size = new Size(23, 23);
-            b15.TabIndex = 14;
-            b15.Tag = "15";
-            b15.UseVisualStyleBackColor = true;
-            // 
-            // b91
-            // 
-            b91.Location = new Point(229, 26);
-            b91.Margin = new Padding(1);
-            b91.Name = "b91";
-            b91.Size = new Size(23, 23);
-            b91.TabIndex = 22;
-            b91.Tag = "91";
-            b91.UseVisualStyleBackColor = true;
-            // 
-            // b05
-            // 
-            b05.Location = new Point(0, 124);
-            b05.Name = "b05";
-            b05.Size = new Size(23, 23);
-            b05.TabIndex = 13;
-            b05.Tag = "05";
-            b05.UseVisualStyleBackColor = true;
-            // 
-            // b54
-            // 
-            b54.Location = new Point(129, 100);
-            b54.Margin = new Padding(1);
-            b54.Name = "b54";
-            b54.Size = new Size(23, 23);
-            b54.TabIndex = 18;
-            b54.Tag = "54";
-            b54.UseVisualStyleBackColor = true;
-            // 
-            // b73
-            // 
-            b73.Location = new Point(179, 76);
-            b73.Margin = new Padding(1);
-            b73.Name = "b73";
-            b73.Size = new Size(23, 23);
-            b73.TabIndex = 20;
-            b73.Tag = "73";
-            b73.UseVisualStyleBackColor = true;
-            // 
-            // b44
-            // 
-            b44.Location = new Point(104, 101);
-            b44.Margin = new Padding(1);
-            b44.Name = "b44";
-            b44.Size = new Size(23, 23);
-            b44.TabIndex = 17;
-            b44.Tag = "44";
-            b44.UseVisualStyleBackColor = true;
-            // 
-            // b34
-            // 
-            b34.Location = new Point(79, 101);
-            b34.Margin = new Padding(1);
-            b34.Name = "b34";
-            b34.Size = new Size(23, 23);
-            b34.TabIndex = 16;
-            b34.Tag = "34";
-            b34.UseVisualStyleBackColor = true;
-            // 
-            // b82
-            // 
-            b82.Location = new Point(204, 51);
-            b82.Margin = new Padding(1);
-            b82.Name = "b82";
-            b82.Size = new Size(23, 23);
-            b82.TabIndex = 21;
-            b82.Tag = "82";
-            b82.UseVisualStyleBackColor = true;
-            // 
-            // b24
-            // 
-            b24.Location = new Point(54, 100);
-            b24.Margin = new Padding(1);
-            b24.Name = "b24";
-            b24.Size = new Size(23, 23);
-            b24.TabIndex = 15;
-            b24.Tag = "24";
-            b24.UseVisualStyleBackColor = true;
-            // 
-            // b63
-            // 
-            b63.Location = new Point(154, 76);
-            b63.Margin = new Padding(1);
-            b63.Name = "b63";
-            b63.Size = new Size(23, 23);
-            b63.TabIndex = 19;
-            b63.Tag = "63";
-            b63.UseVisualStyleBackColor = true;
-            // 
-            // b14
-            // 
-            b14.Location = new Point(27, 99);
-            b14.Margin = new Padding(1);
-            b14.Name = "b14";
-            b14.Size = new Size(23, 23);
-            b14.TabIndex = 14;
-            b14.Tag = "14";
-            b14.UseVisualStyleBackColor = true;
-            // 
-            // b81
-            // 
-            b81.Location = new Point(204, 26);
-            b81.Margin = new Padding(1);
-            b81.Name = "b81";
-            b81.Size = new Size(23, 23);
-            b81.TabIndex = 21;
-            b81.Tag = "81";
-            b81.UseVisualStyleBackColor = true;
-            // 
-            // b04
-            // 
-            b04.Location = new Point(0, 99);
-            b04.Name = "b04";
-            b04.Size = new Size(23, 23);
-            b04.TabIndex = 13;
-            b04.Tag = "04";
-            b04.UseVisualStyleBackColor = true;
-            // 
-            // b53
-            // 
-            b53.Location = new Point(129, 75);
-            b53.Margin = new Padding(1);
-            b53.Name = "b53";
-            b53.Size = new Size(23, 23);
-            b53.TabIndex = 18;
-            b53.Tag = "53";
-            b53.UseVisualStyleBackColor = true;
-            // 
-            // b72
-            // 
-            b72.Location = new Point(179, 51);
-            b72.Margin = new Padding(1);
-            b72.Name = "b72";
-            b72.Size = new Size(23, 23);
-            b72.TabIndex = 20;
-            b72.Tag = "72";
-            b72.UseVisualStyleBackColor = true;
-            // 
-            // b43
-            // 
-            b43.Location = new Point(104, 76);
-            b43.Margin = new Padding(1);
-            b43.Name = "b43";
-            b43.Size = new Size(23, 23);
-            b43.TabIndex = 17;
-            b43.Tag = "43";
-            b43.UseVisualStyleBackColor = true;
-            // 
-            // b62
-            // 
-            b62.Location = new Point(154, 51);
-            b62.Margin = new Padding(1);
-            b62.Name = "b62";
-            b62.Size = new Size(23, 23);
-            b62.TabIndex = 19;
-            b62.Tag = "62";
-            b62.UseVisualStyleBackColor = true;
-            // 
-            // b33
-            // 
-            b33.Location = new Point(79, 76);
-            b33.Margin = new Padding(1);
-            b33.Name = "b33";
-            b33.Size = new Size(23, 23);
-            b33.TabIndex = 16;
-            b33.Tag = "33";
-            b33.UseVisualStyleBackColor = true;
-            // 
-            // b23
-            // 
-            b23.Location = new Point(54, 75);
-            b23.Margin = new Padding(1);
-            b23.Name = "b23";
-            b23.Size = new Size(23, 23);
-            b23.TabIndex = 15;
-            b23.Tag = "23";
-            b23.UseVisualStyleBackColor = true;
-            // 
-            // b71
-            // 
-            b71.Location = new Point(179, 26);
-            b71.Margin = new Padding(1);
-            b71.Name = "b71";
-            b71.Size = new Size(23, 23);
-            b71.TabIndex = 20;
-            b71.Tag = "71";
-            b71.UseVisualStyleBackColor = true;
-            // 
-            // b13
-            // 
-            b13.Location = new Point(27, 74);
-            b13.Margin = new Padding(1);
-            b13.Name = "b13";
-            b13.Size = new Size(23, 23);
-            b13.TabIndex = 14;
-            b13.Tag = "13";
-            b13.UseVisualStyleBackColor = true;
-            // 
-            // b52
-            // 
-            b52.Location = new Point(129, 50);
-            b52.Margin = new Padding(1);
-            b52.Name = "b52";
-            b52.Size = new Size(23, 23);
-            b52.TabIndex = 18;
-            b52.Tag = "52";
-            b52.UseVisualStyleBackColor = true;
-            // 
-            // b03
-            // 
-            b03.Location = new Point(0, 74);
-            b03.Name = "b03";
-            b03.Size = new Size(23, 23);
-            b03.TabIndex = 13;
-            b03.Tag = "03";
-            b03.UseVisualStyleBackColor = true;
-            // 
-            // b61
-            // 
-            b61.Location = new Point(154, 26);
-            b61.Margin = new Padding(1);
-            b61.Name = "b61";
-            b61.Size = new Size(23, 23);
-            b61.TabIndex = 19;
-            b61.Tag = "61";
-            b61.UseVisualStyleBackColor = true;
-            // 
-            // b42
-            // 
-            b42.Location = new Point(104, 51);
-            b42.Margin = new Padding(1);
-            b42.Name = "b42";
-            b42.Size = new Size(23, 23);
-            b42.TabIndex = 17;
-            b42.Tag = "42";
-            b42.UseVisualStyleBackColor = true;
-            // 
-            // b51
-            // 
-            b51.Location = new Point(129, 25);
-            b51.Margin = new Padding(1);
-            b51.Name = "b51";
-            b51.Size = new Size(23, 23);
-            b51.TabIndex = 18;
-            b51.Tag = "51";
-            b51.UseVisualStyleBackColor = true;
-            // 
-            // b32
-            // 
-            b32.Location = new Point(79, 51);
-            b32.Margin = new Padding(1);
-            b32.Name = "b32";
-            b32.Size = new Size(23, 23);
-            b32.TabIndex = 16;
-            b32.Tag = "32";
-            b32.UseVisualStyleBackColor = true;
-            // 
-            // b41
-            // 
-            b41.Location = new Point(104, 26);
-            b41.Margin = new Padding(1);
-            b41.Name = "b41";
-            b41.Size = new Size(23, 23);
-            b41.TabIndex = 17;
-            b41.Tag = "41";
-            b41.UseVisualStyleBackColor = true;
-            // 
-            // b22
-            // 
-            b22.Location = new Point(54, 50);
-            b22.Margin = new Padding(1);
-            b22.Name = "b22";
-            b22.Size = new Size(23, 23);
-            b22.TabIndex = 15;
-            b22.Tag = "22";
-            b22.UseVisualStyleBackColor = true;
-            // 
-            // b31
-            // 
-            b31.Location = new Point(79, 26);
-            b31.Margin = new Padding(1);
-            b31.Name = "b31";
-            b31.Size = new Size(23, 23);
-            b31.TabIndex = 16;
-            b31.Tag = "31";
-            b31.UseVisualStyleBackColor = true;
-            // 
-            // b12
-            // 
-            b12.Location = new Point(27, 49);
-            b12.Margin = new Padding(1);
-            b12.Name = "b12";
-            b12.Size = new Size(23, 23);
-            b12.TabIndex = 14;
-            b12.Tag = "12";
-            b12.UseVisualStyleBackColor = true;
-            // 
-            // b21
-            // 
-            b21.Location = new Point(54, 25);
-            b21.Margin = new Padding(1);
-            b21.Name = "b21";
-            b21.Size = new Size(23, 23);
-            b21.TabIndex = 15;
-            b21.Tag = "21";
-            b21.UseVisualStyleBackColor = true;
-            // 
-            // b02
-            // 
-            b02.Location = new Point(0, 49);
-            b02.Name = "b02";
-            b02.Size = new Size(23, 23);
-            b02.TabIndex = 13;
-            b02.Tag = "02";
-            b02.UseVisualStyleBackColor = true;
-            // 
-            // b11
-            // 
-            b11.Location = new Point(27, 24);
-            b11.Margin = new Padding(1);
-            b11.Name = "b11";
-            b11.Size = new Size(23, 23);
-            b11.TabIndex = 14;
-            b11.Tag = "11";
-            b11.UseVisualStyleBackColor = true;
-            // 
-            // b01
-            // 
-            b01.Location = new Point(0, 24);
-            b01.Name = "b01";
-            b01.Size = new Size(23, 23);
-            b01.TabIndex = 13;
-            b01.Tag = "01";
-            b01.UseVisualStyleBackColor = true;
-            // 
-            // b90
-            // 
-            b90.Location = new Point(229, 1);
-            b90.Margin = new Padding(1);
-            b90.Name = "b90";
-            b90.Size = new Size(23, 23);
-            b90.TabIndex = 12;
-            b90.Tag = "90";
-            b90.UseVisualStyleBackColor = true;
-            // 
-            // b80
-            // 
-            b80.Location = new Point(204, 1);
-            b80.Margin = new Padding(1);
-            b80.Name = "b80";
-            b80.Size = new Size(23, 23);
-            b80.TabIndex = 11;
-            b80.Tag = "80";
-            b80.UseVisualStyleBackColor = true;
-            // 
-            // b70
-            // 
-            b70.Location = new Point(179, 1);
-            b70.Margin = new Padding(1);
-            b70.Name = "b70";
-            b70.Size = new Size(23, 23);
-            b70.TabIndex = 10;
-            b70.Tag = "70";
-            b70.UseVisualStyleBackColor = true;
-            // 
-            // b60
-            // 
-            b60.Location = new Point(154, 1);
-            b60.Margin = new Padding(1);
-            b60.Name = "b60";
-            b60.Size = new Size(23, 23);
-            b60.TabIndex = 9;
-            b60.Tag = "60";
-            b60.UseVisualStyleBackColor = true;
-            // 
-            // b50
-            // 
-            b50.Location = new Point(129, 0);
-            b50.Margin = new Padding(1);
-            b50.Name = "b50";
-            b50.Size = new Size(23, 23);
-            b50.TabIndex = 8;
-            b50.Tag = "50";
-            b50.UseVisualStyleBackColor = true;
-            // 
-            // b40
-            // 
-            b40.Location = new Point(104, 1);
-            b40.Margin = new Padding(1);
-            b40.Name = "b40";
-            b40.Size = new Size(23, 23);
-            b40.TabIndex = 7;
-            b40.Tag = "40";
-            b40.UseVisualStyleBackColor = true;
-            // 
-            // b30
-            // 
-            b30.Location = new Point(79, 1);
-            b30.Margin = new Padding(1);
-            b30.Name = "b30";
-            b30.Size = new Size(23, 23);
-            b30.TabIndex = 6;
-            b30.Tag = "30";
-            b30.UseVisualStyleBackColor = true;
-            // 
-            // b20
-            // 
-            b20.Location = new Point(54, 0);
-            b20.Margin = new Padding(1);
-            b20.Name = "b20";
-            b20.Size = new Size(23, 23);
-            b20.TabIndex = 5;
-            b20.Tag = "20";
-            b20.UseVisualStyleBackColor = true;
-            // 
-            // b10
-            // 
-            b10.Location = new Point(27, -1);
-            b10.Margin = new Padding(1);
-            b10.Name = "b10";
-            b10.Size = new Size(23, 23);
-            b10.TabIndex = 4;
-            b10.Tag = "10";
-            b10.UseVisualStyleBackColor = true;
+            // К10
+            // 
+            К10.Location = new Point(229, 226);
+            К10.Margin = new Padding(1);
+            К10.Name = "К10";
+            К10.Size = new Size(23, 23);
+            К10.TabIndex = 32;
+            К10.Tag = "99";
+            К10.UseVisualStyleBackColor = true;
+            К10.Click += Cell_Click;
+            // 
+            // К9
+            // 
+            К9.Location = new Point(229, 201);
+            К9.Margin = new Padding(1);
+            К9.Name = "К9";
+            К9.Size = new Size(23, 23);
+            К9.TabIndex = 32;
+            К9.Tag = "98";
+            К9.UseVisualStyleBackColor = true;
+            К9.Click += Cell_Click;
+            // 
+            // И10
+            // 
+            И10.Location = new Point(204, 226);
+            И10.Margin = new Padding(1);
+            И10.Name = "И10";
+            И10.Size = new Size(23, 23);
+            И10.TabIndex = 31;
+            И10.Tag = "89";
+            И10.UseVisualStyleBackColor = true;
+            И10.Click += Cell_Click;
+            // 
+            // К8
+            // 
+            К8.Location = new Point(229, 176);
+            К8.Margin = new Padding(1);
+            К8.Name = "К8";
+            К8.Size = new Size(23, 23);
+            К8.TabIndex = 32;
+            К8.Tag = "97";
+            К8.UseVisualStyleBackColor = true;
+            К8.Click += Cell_Click;
+            // 
+            // З10
+            // 
+            З10.Location = new Point(179, 226);
+            З10.Margin = new Padding(1);
+            З10.Name = "З10";
+            З10.Size = new Size(23, 23);
+            З10.TabIndex = 30;
+            З10.Tag = "79";
+            З10.UseVisualStyleBackColor = true;
+            З10.Click += Cell_Click;
+            // 
+            // И9
+            // 
+            И9.Location = new Point(204, 201);
+            И9.Margin = new Padding(1);
+            И9.Name = "И9";
+            И9.Size = new Size(23, 23);
+            И9.TabIndex = 31;
+            И9.Tag = "88";
+            И9.UseVisualStyleBackColor = true;
+            И9.Click += Cell_Click;
+            // 
+            // Ж10
+            // 
+            Ж10.Location = new Point(154, 226);
+            Ж10.Margin = new Padding(1);
+            Ж10.Name = "Ж10";
+            Ж10.Size = new Size(23, 23);
+            Ж10.TabIndex = 29;
+            Ж10.Tag = "69";
+            Ж10.UseVisualStyleBackColor = true;
+            Ж10.Click += Cell_Click;
+            // 
+            // Е10
+            // 
+            Е10.Location = new Point(129, 225);
+            Е10.Margin = new Padding(1);
+            Е10.Name = "Е10";
+            Е10.Size = new Size(23, 23);
+            Е10.TabIndex = 28;
+            Е10.Tag = "59";
+            Е10.UseVisualStyleBackColor = true;
+            Е10.Click += Cell_Click;
+            // 
+            // К7
+            // 
+            К7.Location = new Point(229, 151);
+            К7.Margin = new Padding(1);
+            К7.Name = "К7";
+            К7.Size = new Size(23, 23);
+            К7.TabIndex = 32;
+            К7.Tag = "96";
+            К7.UseVisualStyleBackColor = true;
+            К7.Click += Cell_Click;
+            // 
+            // Д10
+            // 
+            Д10.Location = new Point(104, 226);
+            Д10.Margin = new Padding(1);
+            Д10.Name = "Д10";
+            Д10.Size = new Size(23, 23);
+            Д10.TabIndex = 27;
+            Д10.Tag = "49";
+            Д10.UseVisualStyleBackColor = true;
+            Д10.Click += Cell_Click;
+            // 
+            // З9
+            // 
+            З9.Location = new Point(179, 201);
+            З9.Margin = new Padding(1);
+            З9.Name = "З9";
+            З9.Size = new Size(23, 23);
+            З9.TabIndex = 30;
+            З9.Tag = "78";
+            З9.UseVisualStyleBackColor = true;
+            З9.Click += Cell_Click;
+            // 
+            // Г10
+            // 
+            Г10.Location = new Point(79, 226);
+            Г10.Margin = new Padding(1);
+            Г10.Name = "Г10";
+            Г10.Size = new Size(23, 23);
+            Г10.TabIndex = 26;
+            Г10.Tag = "39";
+            Г10.UseVisualStyleBackColor = true;
+            Г10.Click += Cell_Click;
+            // 
+            // И8
+            // 
+            И8.Location = new Point(204, 176);
+            И8.Margin = new Padding(1);
+            И8.Name = "И8";
+            И8.Size = new Size(23, 23);
+            И8.TabIndex = 31;
+            И8.Tag = "87";
+            И8.UseVisualStyleBackColor = true;
+            И8.Click += Cell_Click;
+            // 
+            // В10
+            // 
+            В10.Location = new Point(54, 225);
+            В10.Margin = new Padding(1);
+            В10.Name = "В10";
+            В10.Size = new Size(23, 23);
+            В10.TabIndex = 25;
+            В10.Tag = "29";
+            В10.UseVisualStyleBackColor = true;
+            В10.Click += Cell_Click;
+            // 
+            // Ж9
+            // 
+            Ж9.Location = new Point(154, 201);
+            Ж9.Margin = new Padding(1);
+            Ж9.Name = "Ж9";
+            Ж9.Size = new Size(23, 23);
+            Ж9.TabIndex = 29;
+            Ж9.Tag = "68";
+            Ж9.UseVisualStyleBackColor = true;
+            Ж9.Click += Cell_Click;
+            // 
+            // Б10
+            // 
+            Б10.Location = new Point(27, 224);
+            Б10.Margin = new Padding(1);
+            Б10.Name = "Б10";
+            Б10.Size = new Size(23, 23);
+            Б10.TabIndex = 24;
+            Б10.Tag = "19";
+            Б10.UseVisualStyleBackColor = true;
+            Б10.Click += Cell_Click;
+            // 
+            // Е9
+            // 
+            Е9.Location = new Point(129, 200);
+            Е9.Margin = new Padding(1);
+            Е9.Name = "Е9";
+            Е9.Size = new Size(23, 23);
+            Е9.TabIndex = 28;
+            Е9.Tag = "58";
+            Е9.UseVisualStyleBackColor = true;
+            Е9.Click += Cell_Click;
+            // 
+            // А10
+            // 
+            А10.Location = new Point(0, 224);
+            А10.Name = "А10";
+            А10.Size = new Size(23, 23);
+            А10.TabIndex = 23;
+            А10.Tag = "09";
+            А10.UseVisualStyleBackColor = true;
+            А10.Click += Cell_Click;
+            // 
+            // К6
+            // 
+            К6.Location = new Point(229, 126);
+            К6.Margin = new Padding(1);
+            К6.Name = "К6";
+            К6.Size = new Size(23, 23);
+            К6.TabIndex = 22;
+            К6.Tag = "95";
+            К6.UseVisualStyleBackColor = true;
+            К6.Click += Cell_Click;
+            // 
+            // Д9
+            // 
+            Д9.Location = new Point(104, 201);
+            Д9.Margin = new Padding(1);
+            Д9.Name = "Д9";
+            Д9.Size = new Size(23, 23);
+            Д9.TabIndex = 27;
+            Д9.Tag = "48";
+            Д9.UseVisualStyleBackColor = true;
+            Д9.Click += Cell_Click;
+            // 
+            // З8
+            // 
+            З8.Location = new Point(179, 176);
+            З8.Margin = new Padding(1);
+            З8.Name = "З8";
+            З8.Size = new Size(23, 23);
+            З8.TabIndex = 30;
+            З8.Tag = "77";
+            З8.UseVisualStyleBackColor = true;
+            З8.Click += Cell_Click;
+            // 
+            // Г9
+            // 
+            Г9.Location = new Point(79, 201);
+            Г9.Margin = new Padding(1);
+            Г9.Name = "Г9";
+            Г9.Size = new Size(23, 23);
+            Г9.TabIndex = 26;
+            Г9.Tag = "38";
+            Г9.UseVisualStyleBackColor = true;
+            Г9.Click += Cell_Click;
+            // 
+            // И7
+            // 
+            И7.Location = new Point(204, 151);
+            И7.Margin = new Padding(1);
+            И7.Name = "И7";
+            И7.Size = new Size(23, 23);
+            И7.TabIndex = 31;
+            И7.Tag = "86";
+            И7.UseVisualStyleBackColor = true;
+            И7.Click += Cell_Click;
+            // 
+            // В9
+            // 
+            В9.Location = new Point(54, 200);
+            В9.Margin = new Padding(1);
+            В9.Name = "В9";
+            В9.Size = new Size(23, 23);
+            В9.TabIndex = 25;
+            В9.Tag = "28";
+            В9.UseVisualStyleBackColor = true;
+            В9.Click += Cell_Click;
+            // 
+            // Ж8
+            // 
+            Ж8.Location = new Point(154, 176);
+            Ж8.Margin = new Padding(1);
+            Ж8.Name = "Ж8";
+            Ж8.Size = new Size(23, 23);
+            Ж8.TabIndex = 29;
+            Ж8.Tag = "67";
+            Ж8.UseVisualStyleBackColor = true;
+            Ж8.Click += Cell_Click;
+            // 
+            // Б9
+            // 
+            Б9.Location = new Point(27, 199);
+            Б9.Margin = new Padding(1);
+            Б9.Name = "Б9";
+            Б9.Size = new Size(23, 23);
+            Б9.TabIndex = 24;
+            Б9.Tag = "18";
+            Б9.UseVisualStyleBackColor = true;
+            Б9.Click += Cell_Click;
+            // 
+            // К5
+            // 
+            К5.Location = new Point(229, 101);
+            К5.Margin = new Padding(1);
+            К5.Name = "К5";
+            К5.Size = new Size(23, 23);
+            К5.TabIndex = 22;
+            К5.Tag = "94";
+            К5.UseVisualStyleBackColor = true;
+            К5.Click += Cell_Click;
+            // 
+            // А9
+            // 
+            А9.Location = new Point(0, 199);
+            А9.Name = "А9";
+            А9.Size = new Size(23, 23);
+            А9.TabIndex = 23;
+            А9.Tag = "08";
+            А9.UseVisualStyleBackColor = true;
+            А9.Click += Cell_Click;
+            // 
+            // Е8
+            // 
+            Е8.Location = new Point(129, 175);
+            Е8.Margin = new Padding(1);
+            Е8.Name = "Е8";
+            Е8.Size = new Size(23, 23);
+            Е8.TabIndex = 28;
+            Е8.Tag = "57";
+            Е8.UseVisualStyleBackColor = true;
+            Е8.Click += Cell_Click;
+            // 
+            // З7
+            // 
+            З7.Location = new Point(179, 151);
+            З7.Margin = new Padding(1);
+            З7.Name = "З7";
+            З7.Size = new Size(23, 23);
+            З7.TabIndex = 30;
+            З7.Tag = "76";
+            З7.UseVisualStyleBackColor = true;
+            З7.Click += Cell_Click;
+            // 
+            // Д8
+            // 
+            Д8.Location = new Point(104, 176);
+            Д8.Margin = new Padding(1);
+            Д8.Name = "Д8";
+            Д8.Size = new Size(23, 23);
+            Д8.TabIndex = 27;
+            Д8.Tag = "47";
+            Д8.UseVisualStyleBackColor = true;
+            Д8.Click += Cell_Click;
+            // 
+            // Г8
+            // 
+            Г8.Location = new Point(79, 176);
+            Г8.Margin = new Padding(1);
+            Г8.Name = "Г8";
+            Г8.Size = new Size(23, 23);
+            Г8.TabIndex = 26;
+            Г8.Tag = "37";
+            Г8.UseVisualStyleBackColor = true;
+            Г8.Click += Cell_Click;
+            // 
+            // И6
+            // 
+            И6.Location = new Point(204, 126);
+            И6.Margin = new Padding(1);
+            И6.Name = "И6";
+            И6.Size = new Size(23, 23);
+            И6.TabIndex = 21;
+            И6.Tag = "85";
+            И6.UseVisualStyleBackColor = true;
+            И6.Click += Cell_Click;
+            // 
+            // В8
+            // 
+            В8.Location = new Point(54, 175);
+            В8.Margin = new Padding(1);
+            В8.Name = "В8";
+            В8.Size = new Size(23, 23);
+            В8.TabIndex = 25;
+            В8.Tag = "27";
+            В8.UseVisualStyleBackColor = true;
+            В8.Click += Cell_Click;
+            // 
+            // Ж7
+            // 
+            Ж7.Location = new Point(154, 151);
+            Ж7.Margin = new Padding(1);
+            Ж7.Name = "Ж7";
+            Ж7.Size = new Size(23, 23);
+            Ж7.TabIndex = 29;
+            Ж7.Tag = "66";
+            Ж7.UseVisualStyleBackColor = true;
+            Ж7.Click += Cell_Click;
+            // 
+            // Б8
+            // 
+            Б8.Location = new Point(27, 174);
+            Б8.Margin = new Padding(1);
+            Б8.Name = "Б8";
+            Б8.Size = new Size(23, 23);
+            Б8.TabIndex = 24;
+            Б8.Tag = "17";
+            Б8.UseVisualStyleBackColor = true;
+            Б8.Click += Cell_Click;
+            // 
+            // К4
+            // 
+            К4.Location = new Point(229, 76);
+            К4.Margin = new Padding(1);
+            К4.Name = "К4";
+            К4.Size = new Size(23, 23);
+            К4.TabIndex = 22;
+            К4.Tag = "93";
+            К4.UseVisualStyleBackColor = true;
+            К4.Click += Cell_Click;
+            // 
+            // А8
+            // 
+            А8.Location = new Point(0, 174);
+            А8.Name = "А8";
+            А8.Size = new Size(23, 23);
+            А8.TabIndex = 23;
+            А8.Tag = "07";
+            А8.UseVisualStyleBackColor = true;
+            А8.Click += Cell_Click;
+            // 
+            // Е7
+            // 
+            Е7.Location = new Point(129, 150);
+            Е7.Margin = new Padding(1);
+            Е7.Name = "Е7";
+            Е7.Size = new Size(23, 23);
+            Е7.TabIndex = 28;
+            Е7.Tag = "56";
+            Е7.UseVisualStyleBackColor = true;
+            Е7.Click += Cell_Click;
+            // 
+            // З6
+            // 
+            З6.Location = new Point(179, 126);
+            З6.Margin = new Padding(1);
+            З6.Name = "З6";
+            З6.Size = new Size(23, 23);
+            З6.TabIndex = 20;
+            З6.Tag = "75";
+            З6.UseVisualStyleBackColor = true;
+            З6.Click += Cell_Click;
+            // 
+            // Д7
+            // 
+            Д7.Location = new Point(104, 151);
+            Д7.Margin = new Padding(1);
+            Д7.Name = "Д7";
+            Д7.Size = new Size(23, 23);
+            Д7.TabIndex = 27;
+            Д7.Tag = "46";
+            Д7.UseVisualStyleBackColor = true;
+            Д7.Click += Cell_Click;
+            // 
+            // Г7
+            // 
+            Г7.Location = new Point(79, 151);
+            Г7.Margin = new Padding(1);
+            Г7.Name = "Г7";
+            Г7.Size = new Size(23, 23);
+            Г7.TabIndex = 26;
+            Г7.Tag = "36";
+            Г7.UseVisualStyleBackColor = true;
+            Г7.Click += Cell_Click;
+            // 
+            // И5
+            // 
+            И5.Location = new Point(204, 101);
+            И5.Margin = new Padding(1);
+            И5.Name = "И5";
+            И5.Size = new Size(23, 23);
+            И5.TabIndex = 21;
+            И5.Tag = "84";
+            И5.UseVisualStyleBackColor = true;
+            И5.Click += Cell_Click;
+            // 
+            // В7
+            // 
+            В7.Location = new Point(54, 150);
+            В7.Margin = new Padding(1);
+            В7.Name = "В7";
+            В7.Size = new Size(23, 23);
+            В7.TabIndex = 25;
+            В7.Tag = "26";
+            В7.UseVisualStyleBackColor = true;
+            В7.Click += Cell_Click;
+            // 
+            // Ж6
+            // 
+            Ж6.Location = new Point(154, 126);
+            Ж6.Margin = new Padding(1);
+            Ж6.Name = "Ж6";
+            Ж6.Size = new Size(23, 23);
+            Ж6.TabIndex = 19;
+            Ж6.Tag = "65";
+            Ж6.UseVisualStyleBackColor = true;
+            Ж6.Click += Cell_Click;
+            // 
+            // Б7
+            // 
+            Б7.Location = new Point(27, 149);
+            Б7.Margin = new Padding(1);
+            Б7.Name = "Б7";
+            Б7.Size = new Size(23, 23);
+            Б7.TabIndex = 24;
+            Б7.Tag = "16";
+            Б7.UseVisualStyleBackColor = true;
+            Б7.Click += Cell_Click;
+            // 
+            // К3
+            // 
+            К3.Location = new Point(229, 51);
+            К3.Margin = new Padding(1);
+            К3.Name = "К3";
+            К3.Size = new Size(23, 23);
+            К3.TabIndex = 22;
+            К3.Tag = "92";
+            К3.UseVisualStyleBackColor = true;
+            К3.Click += Cell_Click;
+            // 
+            // А7
+            // 
+            А7.Location = new Point(0, 149);
+            А7.Name = "А7";
+            А7.RightToLeft = RightToLeft.No;
+            А7.Size = new Size(23, 23);
+            А7.TabIndex = 23;
+            А7.Tag = "06";
+            А7.UseVisualStyleBackColor = true;
+            А7.Click += Cell_Click;
+            // 
+            // Е6
+            // 
+            Е6.Location = new Point(129, 125);
+            Е6.Margin = new Padding(1);
+            Е6.Name = "Е6";
+            Е6.Size = new Size(23, 23);
+            Е6.TabIndex = 18;
+            Е6.Tag = "55";
+            Е6.UseVisualStyleBackColor = true;
+            Е6.Click += Cell_Click;
+            // 
+            // З5
+            // 
+            З5.Location = new Point(179, 101);
+            З5.Margin = new Padding(1);
+            З5.Name = "З5";
+            З5.Size = new Size(23, 23);
+            З5.TabIndex = 20;
+            З5.Tag = "74";
+            З5.UseVisualStyleBackColor = true;
+            З5.Click += Cell_Click;
+            // 
+            // Д6
+            // 
+            Д6.Location = new Point(104, 126);
+            Д6.Margin = new Padding(1);
+            Д6.Name = "Д6";
+            Д6.Size = new Size(23, 23);
+            Д6.TabIndex = 17;
+            Д6.Tag = "45";
+            Д6.UseVisualStyleBackColor = true;
+            Д6.Click += Cell_Click;
+            // 
+            // Г6
+            // 
+            Г6.Location = new Point(79, 126);
+            Г6.Margin = new Padding(1);
+            Г6.Name = "Г6";
+            Г6.Size = new Size(23, 23);
+            Г6.TabIndex = 16;
+            Г6.Tag = "35";
+            Г6.UseVisualStyleBackColor = true;
+            Г6.Click += Cell_Click;
+            // 
+            // И4
+            // 
+            И4.Location = new Point(204, 76);
+            И4.Margin = new Padding(1);
+            И4.Name = "И4";
+            И4.Size = new Size(23, 23);
+            И4.TabIndex = 21;
+            И4.Tag = "83";
+            И4.UseVisualStyleBackColor = true;
+            И4.Click += Cell_Click;
+            // 
+            // В6
+            // 
+            В6.Location = new Point(54, 125);
+            В6.Margin = new Padding(1);
+            В6.Name = "В6";
+            В6.Size = new Size(23, 23);
+            В6.TabIndex = 15;
+            В6.Tag = "25";
+            В6.UseVisualStyleBackColor = true;
+            В6.Click += Cell_Click;
+            // 
+            // Ж5
+            // 
+            Ж5.Location = new Point(154, 101);
+            Ж5.Margin = new Padding(1);
+            Ж5.Name = "Ж5";
+            Ж5.Size = new Size(23, 23);
+            Ж5.TabIndex = 19;
+            Ж5.Tag = "64";
+            Ж5.UseVisualStyleBackColor = true;
+            Ж5.Click += Cell_Click;
+            // 
+            // Б6
+            // 
+            Б6.Location = new Point(27, 124);
+            Б6.Margin = new Padding(1);
+            Б6.Name = "Б6";
+            Б6.Size = new Size(23, 23);
+            Б6.TabIndex = 14;
+            Б6.Tag = "15";
+            Б6.UseVisualStyleBackColor = true;
+            Б6.Click += Cell_Click;
+            // 
+            // К2
+            // 
+            К2.Location = new Point(229, 26);
+            К2.Margin = new Padding(1);
+            К2.Name = "К2";
+            К2.Size = new Size(23, 23);
+            К2.TabIndex = 22;
+            К2.Tag = "91";
+            К2.UseVisualStyleBackColor = true;
+            К2.Click += Cell_Click;
+            // 
+            // А6
+            // 
+            А6.Location = new Point(0, 124);
+            А6.Name = "А6";
+            А6.Size = new Size(23, 23);
+            А6.TabIndex = 13;
+            А6.Tag = "05";
+            А6.UseVisualStyleBackColor = true;
+            А6.Click += Cell_Click;
+            // 
+            // Е5
+            // 
+            Е5.Location = new Point(129, 100);
+            Е5.Margin = new Padding(1);
+            Е5.Name = "Е5";
+            Е5.Size = new Size(23, 23);
+            Е5.TabIndex = 18;
+            Е5.Tag = "54";
+            Е5.UseVisualStyleBackColor = true;
+            Е5.Click += Cell_Click;
+            // 
+            // З4
+            // 
+            З4.Location = new Point(179, 76);
+            З4.Margin = new Padding(1);
+            З4.Name = "З4";
+            З4.Size = new Size(23, 23);
+            З4.TabIndex = 20;
+            З4.Tag = "73";
+            З4.UseVisualStyleBackColor = true;
+            З4.Click += Cell_Click;
+            // 
+            // Д5
+            // 
+            Д5.Location = new Point(104, 101);
+            Д5.Margin = new Padding(1);
+            Д5.Name = "Д5";
+            Д5.Size = new Size(23, 23);
+            Д5.TabIndex = 17;
+            Д5.Tag = "44";
+            Д5.UseVisualStyleBackColor = true;
+            Д5.Click += Cell_Click;
+            // 
+            // Г5
+            // 
+            Г5.Location = new Point(79, 101);
+            Г5.Margin = new Padding(1);
+            Г5.Name = "Г5";
+            Г5.Size = new Size(23, 23);
+            Г5.TabIndex = 16;
+            Г5.Tag = "34";
+            Г5.UseVisualStyleBackColor = true;
+            Г5.Click += Cell_Click;
+            // 
+            // И3
+            // 
+            И3.Location = new Point(204, 51);
+            И3.Margin = new Padding(1);
+            И3.Name = "И3";
+            И3.Size = new Size(23, 23);
+            И3.TabIndex = 21;
+            И3.Tag = "82";
+            И3.UseVisualStyleBackColor = true;
+            И3.Click += Cell_Click;
+            // 
+            // В5
+            // 
+            В5.Location = new Point(54, 100);
+            В5.Margin = new Padding(1);
+            В5.Name = "В5";
+            В5.Size = new Size(23, 23);
+            В5.TabIndex = 15;
+            В5.Tag = "24";
+            В5.UseVisualStyleBackColor = true;
+            В5.Click += Cell_Click;
+            // 
+            // Ж4
+            // 
+            Ж4.Location = new Point(154, 76);
+            Ж4.Margin = new Padding(1);
+            Ж4.Name = "Ж4";
+            Ж4.Size = new Size(23, 23);
+            Ж4.TabIndex = 19;
+            Ж4.Tag = "63";
+            Ж4.UseVisualStyleBackColor = true;
+            Ж4.Click += Cell_Click;
+            // 
+            // Б5
+            // 
+            Б5.Location = new Point(27, 99);
+            Б5.Margin = new Padding(1);
+            Б5.Name = "Б5";
+            Б5.Size = new Size(23, 23);
+            Б5.TabIndex = 14;
+            Б5.Tag = "14";
+            Б5.UseVisualStyleBackColor = true;
+            Б5.Click += Cell_Click;
+            // 
+            // И2
+            // 
+            И2.Location = new Point(204, 26);
+            И2.Margin = new Padding(1);
+            И2.Name = "И2";
+            И2.Size = new Size(23, 23);
+            И2.TabIndex = 21;
+            И2.Tag = "81";
+            И2.UseVisualStyleBackColor = true;
+            И2.Click += Cell_Click;
+            // 
+            // А5
+            // 
+            А5.Location = new Point(0, 99);
+            А5.Name = "А5";
+            А5.Size = new Size(23, 23);
+            А5.TabIndex = 13;
+            А5.Tag = "04";
+            А5.UseVisualStyleBackColor = true;
+            А5.Click += Cell_Click;
+            // 
+            // Е4
+            // 
+            Е4.Location = new Point(129, 75);
+            Е4.Margin = new Padding(1);
+            Е4.Name = "Е4";
+            Е4.Size = new Size(23, 23);
+            Е4.TabIndex = 18;
+            Е4.Tag = "53";
+            Е4.UseVisualStyleBackColor = true;
+            Е4.Click += Cell_Click;
+            // 
+            // З3
+            // 
+            З3.Location = new Point(179, 51);
+            З3.Margin = new Padding(1);
+            З3.Name = "З3";
+            З3.Size = new Size(23, 23);
+            З3.TabIndex = 20;
+            З3.Tag = "72";
+            З3.UseVisualStyleBackColor = true;
+            З3.Click += Cell_Click;
+            // 
+            // Д4
+            // 
+            Д4.Location = new Point(104, 76);
+            Д4.Margin = new Padding(1);
+            Д4.Name = "Д4";
+            Д4.Size = new Size(23, 23);
+            Д4.TabIndex = 17;
+            Д4.Tag = "43";
+            Д4.UseVisualStyleBackColor = true;
+            Д4.Click += Cell_Click;
+            // 
+            // Ж3
+            // 
+            Ж3.Location = new Point(154, 51);
+            Ж3.Margin = new Padding(1);
+            Ж3.Name = "Ж3";
+            Ж3.Size = new Size(23, 23);
+            Ж3.TabIndex = 19;
+            Ж3.Tag = "62";
+            Ж3.UseVisualStyleBackColor = true;
+            Ж3.Click += Cell_Click;
+            // 
+            // Г4
+            // 
+            Г4.Location = new Point(79, 76);
+            Г4.Margin = new Padding(1);
+            Г4.Name = "Г4";
+            Г4.Size = new Size(23, 23);
+            Г4.TabIndex = 16;
+            Г4.Tag = "33";
+            Г4.UseVisualStyleBackColor = true;
+            Г4.Click += Cell_Click;
+            // 
+            // В4
+            // 
+            В4.Location = new Point(54, 75);
+            В4.Margin = new Padding(1);
+            В4.Name = "В4";
+            В4.Size = new Size(23, 23);
+            В4.TabIndex = 15;
+            В4.Tag = "23";
+            В4.UseVisualStyleBackColor = true;
+            В4.Click += Cell_Click;
+            // 
+            // З2
+            // 
+            З2.Location = new Point(179, 26);
+            З2.Margin = new Padding(1);
+            З2.Name = "З2";
+            З2.Size = new Size(23, 23);
+            З2.TabIndex = 20;
+            З2.Tag = "71";
+            З2.UseVisualStyleBackColor = true;
+            З2.Click += Cell_Click;
+            // 
+            // Б4
+            // 
+            Б4.Location = new Point(27, 74);
+            Б4.Margin = new Padding(1);
+            Б4.Name = "Б4";
+            Б4.Size = new Size(23, 23);
+            Б4.TabIndex = 14;
+            Б4.Tag = "13";
+            Б4.UseVisualStyleBackColor = true;
+            Б4.Click += Cell_Click;
+            // 
+            // Е3
+            // 
+            Е3.Location = new Point(129, 50);
+            Е3.Margin = new Padding(1);
+            Е3.Name = "Е3";
+            Е3.Size = new Size(23, 23);
+            Е3.TabIndex = 18;
+            Е3.Tag = "52";
+            Е3.UseVisualStyleBackColor = true;
+            Е3.Click += Cell_Click;
+            // 
+            // А4
+            // 
+            А4.Location = new Point(0, 74);
+            А4.Name = "А4";
+            А4.Size = new Size(23, 23);
+            А4.TabIndex = 13;
+            А4.Tag = "03";
+            А4.UseVisualStyleBackColor = true;
+            А4.Click += Cell_Click;
+            // 
+            // Ж2
+            // 
+            Ж2.Location = new Point(154, 26);
+            Ж2.Margin = new Padding(1);
+            Ж2.Name = "Ж2";
+            Ж2.Size = new Size(23, 23);
+            Ж2.TabIndex = 19;
+            Ж2.Tag = "61";
+            Ж2.UseVisualStyleBackColor = true;
+            Ж2.Click += Cell_Click;
+            // 
+            // Д3
+            // 
+            Д3.Location = new Point(104, 51);
+            Д3.Margin = new Padding(1);
+            Д3.Name = "Д3";
+            Д3.Size = new Size(23, 23);
+            Д3.TabIndex = 17;
+            Д3.Tag = "42";
+            Д3.UseVisualStyleBackColor = true;
+            Д3.Click += Cell_Click;
+            // 
+            // Е2
+            // 
+            Е2.Location = new Point(129, 25);
+            Е2.Margin = new Padding(1);
+            Е2.Name = "Е2";
+            Е2.Size = new Size(23, 23);
+            Е2.TabIndex = 18;
+            Е2.Tag = "51";
+            Е2.UseVisualStyleBackColor = true;
+            Е2.Click += Cell_Click;
+            // 
+            // Г3
+            // 
+            Г3.Location = new Point(79, 51);
+            Г3.Margin = new Padding(1);
+            Г3.Name = "Г3";
+            Г3.Size = new Size(23, 23);
+            Г3.TabIndex = 16;
+            Г3.Tag = "32";
+            Г3.UseVisualStyleBackColor = true;
+            Г3.Click += Cell_Click;
+            // 
+            // Д2
+            // 
+            Д2.Location = new Point(104, 26);
+            Д2.Margin = new Padding(1);
+            Д2.Name = "Д2";
+            Д2.Size = new Size(23, 23);
+            Д2.TabIndex = 17;
+            Д2.Tag = "41";
+            Д2.UseVisualStyleBackColor = true;
+            Д2.Click += Cell_Click;
+            // 
+            // В3
+            // 
+            В3.Location = new Point(54, 50);
+            В3.Margin = new Padding(1);
+            В3.Name = "В3";
+            В3.Size = new Size(23, 23);
+            В3.TabIndex = 15;
+            В3.Tag = "22";
+            В3.UseVisualStyleBackColor = true;
+            В3.Click += Cell_Click;
+            // 
+            // Г2
+            // 
+            Г2.Location = new Point(79, 26);
+            Г2.Margin = new Padding(1);
+            Г2.Name = "Г2";
+            Г2.Size = new Size(23, 23);
+            Г2.TabIndex = 16;
+            Г2.Tag = "31";
+            Г2.UseVisualStyleBackColor = true;
+            Г2.Click += Cell_Click;
+            // 
+            // Б3
+            // 
+            Б3.Location = new Point(27, 49);
+            Б3.Margin = new Padding(1);
+            Б3.Name = "Б3";
+            Б3.Size = new Size(23, 23);
+            Б3.TabIndex = 14;
+            Б3.Tag = "12";
+            Б3.UseVisualStyleBackColor = true;
+            Б3.Click += Cell_Click;
+            // 
+            // В2
+            // 
+            В2.Location = new Point(54, 25);
+            В2.Margin = new Padding(1);
+            В2.Name = "В2";
+            В2.Size = new Size(23, 23);
+            В2.TabIndex = 15;
+            В2.Tag = "21";
+            В2.UseVisualStyleBackColor = true;
+            В2.Click += Cell_Click;
+            // 
+            // А3
+            // 
+            А3.Location = new Point(0, 49);
+            А3.Name = "А3";
+            А3.Size = new Size(23, 23);
+            А3.TabIndex = 13;
+            А3.Tag = "02";
+            А3.UseVisualStyleBackColor = true;
+            А3.Click += Cell_Click;
+            // 
+            // Б2
+            // 
+            Б2.Location = new Point(27, 24);
+            Б2.Margin = new Padding(1);
+            Б2.Name = "Б2";
+            Б2.Size = new Size(23, 23);
+            Б2.TabIndex = 14;
+            Б2.Tag = "11";
+            Б2.UseVisualStyleBackColor = true;
+            Б2.Click += Cell_Click;
+            // 
+            // А2
+            // 
+            А2.Location = new Point(0, 24);
+            А2.Name = "А2";
+            А2.Size = new Size(23, 23);
+            А2.TabIndex = 13;
+            А2.Tag = "01";
+            А2.UseVisualStyleBackColor = true;
+            А2.Click += Cell_Click;
+            // 
+            // К1
+            // 
+            К1.Location = new Point(229, 1);
+            К1.Margin = new Padding(1);
+            К1.Name = "К1";
+            К1.Size = new Size(23, 23);
+            К1.TabIndex = 12;
+            К1.Tag = "90";
+            К1.UseVisualStyleBackColor = true;
+            К1.Click += Cell_Click;
+            // 
+            // И1
+            // 
+            И1.Location = new Point(204, 1);
+            И1.Margin = new Padding(1);
+            И1.Name = "И1";
+            И1.Size = new Size(23, 23);
+            И1.TabIndex = 11;
+            И1.Tag = "80";
+            И1.UseVisualStyleBackColor = true;
+            И1.Click += Cell_Click;
+            // 
+            // З1
+            // 
+            З1.Location = new Point(179, 1);
+            З1.Margin = new Padding(1);
+            З1.Name = "З1";
+            З1.Size = new Size(23, 23);
+            З1.TabIndex = 10;
+            З1.Tag = "70";
+            З1.UseVisualStyleBackColor = true;
+            З1.Click += Cell_Click;
+            // 
+            // Ж1
+            // 
+            Ж1.Location = new Point(154, 1);
+            Ж1.Margin = new Padding(1);
+            Ж1.Name = "Ж1";
+            Ж1.Size = new Size(23, 23);
+            Ж1.TabIndex = 9;
+            Ж1.Tag = "60";
+            Ж1.UseVisualStyleBackColor = true;
+            Ж1.Click += Cell_Click;
+            // 
+            // Е1
+            // 
+            Е1.Location = new Point(129, 0);
+            Е1.Margin = new Padding(1);
+            Е1.Name = "Е1";
+            Е1.Size = new Size(23, 23);
+            Е1.TabIndex = 8;
+            Е1.Tag = "50";
+            Е1.UseVisualStyleBackColor = true;
+            Е1.Click += Cell_Click;
+            // 
+            // Д1
+            // 
+            Д1.Location = new Point(104, 1);
+            Д1.Margin = new Padding(1);
+            Д1.Name = "Д1";
+            Д1.Size = new Size(23, 23);
+            Д1.TabIndex = 7;
+            Д1.Tag = "40";
+            Д1.UseVisualStyleBackColor = true;
+            Д1.Click += Cell_Click;
+            // 
+            // Г1
+            // 
+            Г1.Location = new Point(79, 1);
+            Г1.Margin = new Padding(1);
+            Г1.Name = "Г1";
+            Г1.Size = new Size(23, 23);
+            Г1.TabIndex = 6;
+            Г1.Tag = "30";
+            Г1.UseVisualStyleBackColor = true;
+            Г1.Click += Cell_Click;
+            // 
+            // В1
+            // 
+            В1.Location = new Point(54, 0);
+            В1.Margin = new Padding(1);
+            В1.Name = "В1";
+            В1.Size = new Size(23, 23);
+            В1.TabIndex = 5;
+            В1.Tag = "20";
+            В1.UseVisualStyleBackColor = true;
+            В1.Click += Cell_Click;
+            // 
+            // Б1
+            // 
+            Б1.Location = new Point(27, -1);
+            Б1.Margin = new Padding(1);
+            Б1.Name = "Б1";
+            Б1.Size = new Size(23, 23);
+            Б1.TabIndex = 4;
+            Б1.Tag = "10";
+            Б1.UseVisualStyleBackColor = true;
+            Б1.Click += Cell_Click;
             // 
             // checkBox1
             // 
@@ -1287,6 +1429,7 @@
             checkBox2.TabIndex = 6;
             checkBox2.Text = "Удалить";
             checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // radioButton1
             // 
@@ -1345,7 +1488,7 @@
             // 
             // button104
             // 
-            button104.Location = new Point(433, 160);
+            button104.Location = new Point(525, 117);
             button104.Name = "button104";
             button104.Size = new Size(99, 23);
             button104.TabIndex = 12;
@@ -1353,11 +1496,315 @@
             button104.UseVisualStyleBackColor = true;
             button104.Click += button104_Click;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { А, Б, В, Г, Д, Е, Ж, З, И, К });
+            dataGridView1.Location = new Point(433, 160);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.ScrollBars = ScrollBars.None;
+            dataGridView1.Size = new Size(294, 278);
+            dataGridView1.TabIndex = 13;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
+            // 
+            // А
+            // 
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            А.DefaultCellStyle = dataGridViewCellStyle1;
+            А.HeaderText = "А";
+            А.Name = "А";
+            А.Resizable = DataGridViewTriState.False;
+            А.Width = 25;
+            // 
+            // Б
+            // 
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Б.DefaultCellStyle = dataGridViewCellStyle2;
+            Б.HeaderText = "Б";
+            Б.Name = "Б";
+            Б.Resizable = DataGridViewTriState.False;
+            Б.Width = 25;
+            // 
+            // В
+            // 
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            В.DefaultCellStyle = dataGridViewCellStyle3;
+            В.HeaderText = "В";
+            В.Name = "В";
+            В.Resizable = DataGridViewTriState.False;
+            В.Width = 25;
+            // 
+            // Г
+            // 
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Г.DefaultCellStyle = dataGridViewCellStyle4;
+            Г.HeaderText = "Г";
+            Г.Name = "Г";
+            Г.Resizable = DataGridViewTriState.False;
+            Г.Width = 25;
+            // 
+            // Д
+            // 
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Д.DefaultCellStyle = dataGridViewCellStyle5;
+            Д.HeaderText = "Д";
+            Д.Name = "Д";
+            Д.Resizable = DataGridViewTriState.False;
+            Д.Width = 25;
+            // 
+            // Е
+            // 
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Е.DefaultCellStyle = dataGridViewCellStyle6;
+            Е.HeaderText = "Е";
+            Е.Name = "Е";
+            Е.Resizable = DataGridViewTriState.False;
+            Е.Width = 25;
+            // 
+            // Ж
+            // 
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Ж.DefaultCellStyle = dataGridViewCellStyle7;
+            Ж.HeaderText = "Ж";
+            Ж.Name = "Ж";
+            Ж.Resizable = DataGridViewTriState.False;
+            Ж.Width = 25;
+            // 
+            // З
+            // 
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            З.DefaultCellStyle = dataGridViewCellStyle8;
+            З.HeaderText = "З";
+            З.Name = "З";
+            З.Resizable = DataGridViewTriState.False;
+            З.Width = 25;
+            // 
+            // И
+            // 
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            И.DefaultCellStyle = dataGridViewCellStyle9;
+            И.HeaderText = "И";
+            И.Name = "И";
+            И.Resizable = DataGridViewTriState.False;
+            И.Width = 25;
+            // 
+            // К
+            // 
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            К.DefaultCellStyle = dataGridViewCellStyle10;
+            К.HeaderText = "К";
+            К.Name = "К";
+            К.Resizable = DataGridViewTriState.False;
+            К.Width = 25;
+            // 
+            // lblА
+            // 
+            lblА.AutoSize = true;
+            lblА.Location = new Point(55, 63);
+            lblА.Name = "lblА";
+            lblА.Size = new Size(15, 15);
+            lblА.TabIndex = 14;
+            lblА.Text = "А";
+            // 
+            // lblБ
+            // 
+            lblБ.AutoSize = true;
+            lblБ.Location = new Point(84, 63);
+            lblБ.Name = "lblБ";
+            lblБ.Size = new Size(14, 15);
+            lblБ.TabIndex = 15;
+            lblБ.Text = "Б";
+            // 
+            // lblВ
+            // 
+            lblВ.AutoSize = true;
+            lblВ.Location = new Point(110, 63);
+            lblВ.Name = "lblВ";
+            lblВ.Size = new Size(14, 15);
+            lblВ.TabIndex = 16;
+            lblВ.Text = "В";
+            // 
+            // lblГ
+            // 
+            lblГ.AutoSize = true;
+            lblГ.Location = new Point(136, 63);
+            lblГ.Name = "lblГ";
+            lblГ.Size = new Size(13, 15);
+            lblГ.TabIndex = 17;
+            lblГ.Text = "Г";
+            // 
+            // lblД
+            // 
+            lblД.AutoSize = true;
+            lblД.Location = new Point(160, 63);
+            lblД.Name = "lblД";
+            lblД.Size = new Size(15, 15);
+            lblД.TabIndex = 18;
+            lblД.Text = "Д";
+            // 
+            // lblЕ
+            // 
+            lblЕ.AutoSize = true;
+            lblЕ.Location = new Point(184, 63);
+            lblЕ.Name = "lblЕ";
+            lblЕ.Size = new Size(13, 15);
+            lblЕ.TabIndex = 19;
+            lblЕ.Text = "Е";
+            // 
+            // lblЖ
+            // 
+            lblЖ.AutoSize = true;
+            lblЖ.Location = new Point(208, 63);
+            lblЖ.Name = "lblЖ";
+            lblЖ.Size = new Size(18, 15);
+            lblЖ.TabIndex = 20;
+            lblЖ.Text = "Ж";
+            // 
+            // lblЗ
+            // 
+            lblЗ.AutoSize = true;
+            lblЗ.Location = new Point(235, 63);
+            lblЗ.Name = "lblЗ";
+            lblЗ.Size = new Size(14, 15);
+            lblЗ.TabIndex = 21;
+            lblЗ.Text = "З";
+            // 
+            // lblИ
+            // 
+            lblИ.AutoSize = true;
+            lblИ.Location = new Point(258, 63);
+            lblИ.Name = "lblИ";
+            lblИ.Size = new Size(16, 15);
+            lblИ.TabIndex = 22;
+            lblИ.Text = "И";
+            // 
+            // lblК
+            // 
+            lblК.AutoSize = true;
+            lblК.Location = new Point(282, 63);
+            lblК.Name = "lblК";
+            lblК.Size = new Size(14, 15);
+            lblК.TabIndex = 23;
+            lblК.Text = "К";
+            // 
+            // lbl1
+            // 
+            lbl1.AutoSize = true;
+            lbl1.Location = new Point(32, 88);
+            lbl1.Name = "lbl1";
+            lbl1.Size = new Size(13, 15);
+            lbl1.TabIndex = 24;
+            lbl1.Text = "1";
+            // 
+            // lbl2
+            // 
+            lbl2.AutoSize = true;
+            lbl2.Location = new Point(32, 113);
+            lbl2.Name = "lbl2";
+            lbl2.Size = new Size(13, 15);
+            lbl2.TabIndex = 25;
+            lbl2.Text = "2";
+            // 
+            // lbl3
+            // 
+            lbl3.AutoSize = true;
+            lbl3.Location = new Point(32, 138);
+            lbl3.Name = "lbl3";
+            lbl3.Size = new Size(13, 15);
+            lbl3.TabIndex = 26;
+            lbl3.Text = "3";
+            // 
+            // lbl4
+            // 
+            lbl4.AutoSize = true;
+            lbl4.Location = new Point(32, 163);
+            lbl4.Name = "lbl4";
+            lbl4.Size = new Size(13, 15);
+            lbl4.TabIndex = 27;
+            lbl4.Text = "4";
+            // 
+            // lbl5
+            // 
+            lbl5.AutoSize = true;
+            lbl5.Location = new Point(31, 188);
+            lbl5.Name = "lbl5";
+            lbl5.Size = new Size(13, 15);
+            lbl5.TabIndex = 28;
+            lbl5.Text = "5";
+            // 
+            // lbl6
+            // 
+            lbl6.AutoSize = true;
+            lbl6.Location = new Point(32, 213);
+            lbl6.Name = "lbl6";
+            lbl6.Size = new Size(13, 15);
+            lbl6.TabIndex = 29;
+            lbl6.Text = "6";
+            // 
+            // lbl7
+            // 
+            lbl7.AutoSize = true;
+            lbl7.Location = new Point(32, 238);
+            lbl7.Name = "lbl7";
+            lbl7.Size = new Size(13, 15);
+            lbl7.TabIndex = 30;
+            lbl7.Text = "7";
+            // 
+            // lbl8
+            // 
+            lbl8.AutoSize = true;
+            lbl8.Location = new Point(32, 263);
+            lbl8.Name = "lbl8";
+            lbl8.Size = new Size(13, 15);
+            lbl8.TabIndex = 31;
+            lbl8.Text = "8";
+            // 
+            // lbl9
+            // 
+            lbl9.AutoSize = true;
+            lbl9.Location = new Point(32, 288);
+            lbl9.Name = "lbl9";
+            lbl9.Size = new Size(13, 15);
+            lbl9.TabIndex = 32;
+            lbl9.Text = "9";
+            // 
+            // lbl10
+            // 
+            lbl10.AutoSize = true;
+            lbl10.Location = new Point(31, 313);
+            lbl10.Name = "lbl10";
+            lbl10.Size = new Size(19, 15);
+            lbl10.TabIndex = 33;
+            lbl10.Text = "10";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl10);
+            Controls.Add(lbl9);
+            Controls.Add(lbl8);
+            Controls.Add(lbl7);
+            Controls.Add(lbl6);
+            Controls.Add(lbl5);
+            Controls.Add(lbl4);
+            Controls.Add(lbl3);
+            Controls.Add(lbl2);
+            Controls.Add(lbl1);
+            Controls.Add(lblК);
+            Controls.Add(lblИ);
+            Controls.Add(lblЗ);
+            Controls.Add(lblЖ);
+            Controls.Add(lblЕ);
+            Controls.Add(lblД);
+            Controls.Add(lblГ);
+            Controls.Add(lblВ);
+            Controls.Add(lblБ);
+            Controls.Add(lblА);
+            Controls.Add(dataGridView1);
             Controls.Add(button104);
             Controls.Add(button103);
             Controls.Add(radioButton4);
@@ -1372,7 +1819,9 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1382,107 +1831,107 @@
         private Button button1;
         private TextBox textBox1;
         private Button button2;
-        private Button b00;
+        private Button А1;
         private Panel panel1;
-        private Button b91;
-        private Button b81;
-        private Button b71;
-        private Button b61;
-        private Button b51;
-        private Button b41;
-        private Button b31;
-        private Button b21;
-        private Button b11;
-        private Button b01;
-        private Button b90;
-        private Button b80;
-        private Button b70;
-        private Button b60;
-        private Button b50;
-        private Button b40;
-        private Button b30;
-        private Button b20;
-        private Button b10;
-        private Button b92;
-        private Button b82;
-        private Button b72;
-        private Button b62;
-        private Button b52;
-        private Button b42;
-        private Button b32;
-        private Button b22;
-        private Button b12;
-        private Button b02;
-        private Button b95;
-        private Button b94;
-        private Button b85;
-        private Button b93;
-        private Button b75;
-        private Button b84;
-        private Button b65;
-        private Button b55;
-        private Button b74;
-        private Button b45;
-        private Button b35;
-        private Button b83;
-        private Button b25;
-        private Button b64;
-        private Button b15;
-        private Button b05;
-        private Button b54;
-        private Button b73;
-        private Button b44;
-        private Button b34;
-        private Button b24;
-        private Button b63;
-        private Button b14;
-        private Button b04;
-        private Button b53;
-        private Button b43;
-        private Button b33;
-        private Button b23;
-        private Button b13;
-        private Button b03;
-        private Button b99;
-        private Button b98;
-        private Button b89;
-        private Button b97;
-        private Button b79;
-        private Button b88;
-        private Button b69;
-        private Button b59;
-        private Button b96;
-        private Button b49;
-        private Button b78;
-        private Button b39;
-        private Button b87;
-        private Button b29;
-        private Button b68;
-        private Button b19;
-        private Button b58;
-        private Button b09;
-        private Button b48;
-        private Button b77;
-        private Button b38;
-        private Button b86;
-        private Button b28;
-        private Button b67;
-        private Button b18;
-        private Button b08;
-        private Button b57;
-        private Button b76;
-        private Button b47;
-        private Button b37;
-        private Button b27;
-        private Button b66;
-        private Button b17;
-        private Button b07;
-        private Button b56;
-        private Button b46;
-        private Button b36;
-        private Button b26;
-        private Button b16;
-        private Button b06;
+        private Button К2;
+        private Button И2;
+        private Button З2;
+        private Button Ж2;
+        private Button Е2;
+        private Button Д2;
+        private Button Г2;
+        private Button В2;
+        private Button Б2;
+        private Button А2;
+        private Button К1;
+        private Button И1;
+        private Button З1;
+        private Button Ж1;
+        private Button Е1;
+        private Button Д1;
+        private Button Г1;
+        private Button В1;
+        private Button Б1;
+        private Button К3;
+        private Button И3;
+        private Button З3;
+        private Button Ж3;
+        private Button Е3;
+        private Button Д3;
+        private Button Г3;
+        private Button В3;
+        private Button Б3;
+        private Button А3;
+        private Button К6;
+        private Button К5;
+        private Button И6;
+        private Button К4;
+        private Button З6;
+        private Button И5;
+        private Button Ж6;
+        private Button Е6;
+        private Button З5;
+        private Button Д6;
+        private Button Г6;
+        private Button И4;
+        private Button В6;
+        private Button Ж5;
+        private Button Б6;
+        private Button А6;
+        private Button Е5;
+        private Button З4;
+        private Button Д5;
+        private Button Г5;
+        private Button В5;
+        private Button Ж4;
+        private Button Б5;
+        private Button А5;
+        private Button Е4;
+        private Button Д4;
+        private Button Г4;
+        private Button В4;
+        private Button Б4;
+        private Button А4;
+        private Button К10;
+        private Button К9;
+        private Button И10;
+        private Button К8;
+        private Button З10;
+        private Button И9;
+        private Button Ж10;
+        private Button Е10;
+        private Button К7;
+        private Button Д10;
+        private Button З9;
+        private Button Г10;
+        private Button И8;
+        private Button В10;
+        private Button Ж9;
+        private Button Б10;
+        private Button Е9;
+        private Button А10;
+        private Button Д9;
+        private Button З8;
+        private Button Г9;
+        private Button И7;
+        private Button В9;
+        private Button Ж8;
+        private Button Б9;
+        private Button А9;
+        private Button Е8;
+        private Button З7;
+        private Button Д8;
+        private Button Г8;
+        private Button В8;
+        private Button Ж7;
+        private Button Б8;
+        private Button А8;
+        private Button Е7;
+        private Button Д7;
+        private Button Г7;
+        private Button В7;
+        private Button Б7;
+        private Button А7;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
         private RadioButton radioButton1;
@@ -1491,5 +1940,36 @@
         private RadioButton radioButton4;
         private Button button103;
         private Button button104;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn А;
+        private DataGridViewTextBoxColumn Б;
+        private DataGridViewTextBoxColumn В;
+        private DataGridViewTextBoxColumn Г;
+        private DataGridViewTextBoxColumn Д;
+        private DataGridViewTextBoxColumn Е;
+        private DataGridViewTextBoxColumn Ж;
+        private DataGridViewTextBoxColumn З;
+        private DataGridViewTextBoxColumn И;
+        private DataGridViewTextBoxColumn К;
+        private Label lblА;
+        private Label lblБ;
+        private Label lblВ;
+        private Label lblГ;
+        private Label lblД;
+        private Label lblЕ;
+        private Label lblЖ;
+        private Label lblЗ;
+        private Label lblИ;
+        private Label lblК;
+        private Label lbl1;
+        private Label lbl2;
+        private Label lbl3;
+        private Label lbl4;
+        private Label lbl5;
+        private Label lbl6;
+        private Label lbl7;
+        private Label lbl8;
+        private Label lbl9;
+        private Label lbl10;
     }
 }
